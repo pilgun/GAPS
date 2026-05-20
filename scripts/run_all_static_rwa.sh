@@ -27,7 +27,7 @@ for file in $files; do
 	fi
 	if [ $resume -eq 1 ]; then
 		app_name=$file
-		poetry run gaps static -i $app_path/$app_name/$app_name.apk -custom_seed $testing_seed_path/"$app_name"_instructions.txt -o $output_data_dir -l 100 -d &
+		uv run gaps static -i $app_path/$app_name/$app_name.apk -custom_seed $testing_seed_path/"$app_name"_instructions.txt -o $output_data_dir -l 100 -d &
 		pid=$!
 		start_time=$(date +%s.%N)
 		max_ram_kb=0

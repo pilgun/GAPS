@@ -1,7 +1,0 @@
---------- beginning of main
-08-28 23:49:37.804 16360 16421 D GAPS    : METHOD=<org.simpleframework.util.buffer.FileManager: void clean()>
-08-28 23:49:37.804 16360 16421 D GAPS    : METHOD=<org.simpleframework.util.buffer.FileManager: java.io.File create()>
-08-28 23:49:37.804 16360 16421 D GAPS    : METHOD=<org.simpleframework.util.buffer.FileManager: java.io.File create(java.lang.String)>
-08-28 23:49:37.805 16360 16421 D GAPS    : METHOD=<org.simpleframework.util.buffer.FileManager: void clean(java.io.File)>
-08-28 23:49:37.805 16360 16421 D GAPS    : METHOD=<org.simpleframework.util.buffer.FileManager: boolean accept(java.io.File)>
-08-28 23:49:37.805 16360 16421 D GAPS    : METHOD=<org.simpleframework.util.buffer.FileManager: boolean accept(java.io.File,java.lang.String)>

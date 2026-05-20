@@ -1,0 +1,34 @@
+====== RESTART #1 2026-03-14 00:53:23 ======
+--------- beginning of system
+--------- beginning of main
+--------- beginning of crash
+--------- beginning of kernel
+03-14 00:53:24.282 31486 31486 D GAPS    : CLASS=com.example.anycut.FrontDoorActivity
+03-14 00:53:24.287 31486 31486 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void <init>()>
+03-14 00:53:24.294 31486 31486 D GAPS    : ACTIVITY=com.example.anycut.FrontDoorActivity
+03-14 00:53:24.294 31486 31486 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void onCreate(android.os.Bundle)>
+====== RESTART #2 2026-03-14 00:58:29 ======
+03-14 00:58:30.636 20705 20705 D GAPS    : CLASS=com.example.anycut.FrontDoorActivity
+03-14 00:58:30.636 20705 20705 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void <init>()>
+03-14 00:58:30.640 20705 20705 D GAPS    : ACTIVITY=com.example.anycut.FrontDoorActivity
+03-14 00:58:30.640 20705 20705 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void onCreate(android.os.Bundle)>
+====== RESTART #3 2026-03-14 01:03:35 ======
+03-14 01:03:36.104  8995  8995 D GAPS    : CLASS=com.example.anycut.FrontDoorActivity
+03-14 01:03:36.104  8995  8995 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void <init>()>
+03-14 01:03:36.108  8995  8995 D GAPS    : ACTIVITY=com.example.anycut.FrontDoorActivity
+03-14 01:03:36.108  8995  8995 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void onCreate(android.os.Bundle)>
+====== RESTART #4 2026-03-14 01:08:42 ======
+03-14 01:08:43.675 28034 28034 D GAPS    : CLASS=com.example.anycut.FrontDoorActivity
+03-14 01:08:43.675 28034 28034 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void <init>()>
+03-14 01:08:43.689 28034 28034 D GAPS    : ACTIVITY=com.example.anycut.FrontDoorActivity
+03-14 01:08:43.689 28034 28034 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void onCreate(android.os.Bundle)>
+====== RESTART #5 2026-03-14 01:13:49 ======
+03-14 01:13:50.372 15248 15248 D GAPS    : CLASS=com.example.anycut.FrontDoorActivity
+03-14 01:13:50.372 15248 15248 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void <init>()>
+03-14 01:13:50.375 15248 15248 D GAPS    : ACTIVITY=com.example.anycut.FrontDoorActivity
+03-14 01:13:50.375 15248 15248 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void onCreate(android.os.Bundle)>
+====== RESTART #6 2026-03-14 01:18:56 ======
+03-14 01:18:57.109  2332  2332 D GAPS    : CLASS=com.example.anycut.FrontDoorActivity
+03-14 01:18:57.110  2332  2332 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void <init>()>
+03-14 01:18:57.112  2332  2332 D GAPS    : ACTIVITY=com.example.anycut.FrontDoorActivity
+03-14 01:18:57.112  2332  2332 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void onCreate(android.os.Bundle)>

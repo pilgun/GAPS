@@ -1,9 +1,0 @@
---------- beginning of system
---------- beginning of crash
---------- beginning of main
-05-06 12:29:37.322 19771 19771 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity
-05-06 12:29:37.322 19771 19771 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void <init>()>
-05-06 12:29:37.324 19771 19771 D GAPS    : ACTIVITY=com.tum.yahtzee.YahtzeeActivity
-05-06 12:29:37.324 19771 19771 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void onCreate(android.os.Bundle)>
-05-06 12:29:37.344 19771 19771 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity$1
-05-06 12:29:37.344 19771 19771 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity$1: void <init>(com.tum.yahtzee.YahtzeeActivity)>

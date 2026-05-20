@@ -1,6 +1,0 @@
---------- beginning of system
---------- beginning of main
-05-06 01:19:35.097 24337 24337 D GAPS    : CLASS=com.ringdroid.RingdroidEditActivity$11
-05-06 01:19:35.097 24337 24337 D GAPS    : METHOD=<com.ringdroid.RingdroidEditActivity$11: void <init>(com.ringdroid.RingdroidEditActivity)>
-05-06 01:19:35.114 24337 24337 D GAPS    : METHOD=<com.ringdroid.RingdroidEditActivity$11: void run()>
-05-06 01:19:35.114 24337 24337 D GAPS    : METHOD=<com.ringdroid.RingdroidEditActivity: boolean access$2302(com.ringdroid.RingdroidEditActivity,boolean)>

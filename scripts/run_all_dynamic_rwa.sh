@@ -32,7 +32,7 @@ for file in $files; do
 	fi
 	if [ $resume -eq 1 ]; then
 		start_time=$(date +%s.%N)
-		poetry run gaps run -i $app_path/$app_name/$app_name.apk -instr $output_dir/$app_name/$app_name-instr.json -o $output_dir -frida
+		uv run gaps run -i $app_path/$app_name/$app_name.apk -instr $output_dir/$app_name/$app_name-instr.json -o $output_dir -frida
 		end_time=$(date +%s.%N)
 		execution_time=$(echo "$end_time - $start_time" | bc)
 		echo "$app_name,$execution_time" >> "$stats_file"

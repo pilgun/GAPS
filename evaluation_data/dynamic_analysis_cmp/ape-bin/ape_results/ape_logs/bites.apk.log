@@ -1,9 +1,0 @@
---------- beginning of system
---------- beginning of main
-05-05 22:35:00.059 27517 27517 D GAPS    : METHOD=<caldwell.ben.bites.RecipeList: boolean onOptionsItemSelected(android.view.MenuItem)>
-05-05 22:35:00.059 27517 27517 D GAPS    : METHOD=<caldwell.ben.bites.RecipeList: android.app.Dialog onCreateDialog(int)>
-05-05 22:35:00.067 27517 27517 D GAPS    : CLASS=caldwell.ben.bites.RecipeList$2
-05-05 22:35:00.067 27517 27517 D GAPS    : METHOD=<caldwell.ben.bites.RecipeList$2: void <init>(caldwell.ben.bites.RecipeList)>
-05-05 22:35:00.067 27517 27517 D GAPS    : CLASS=caldwell.ben.bites.RecipeList$1
-05-05 22:35:00.067 27517 27517 D GAPS    : METHOD=<caldwell.ben.bites.RecipeList$1: void <init>(caldwell.ben.bites.RecipeList)>
-05-05 22:35:08.765 27517 27517 D GAPS    : METHOD=<caldwell.ben.bites.RecipeList$1: void onClick(android.content.DialogInterface,int)>

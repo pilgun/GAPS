@@ -1,9 +1,0 @@
---------- beginning of system
---------- beginning of crash
---------- beginning of main
-05-06 05:17:33.271  8609  8609 D GAPS    : METHOD=<com.chmod0.manpages.BrowserActivity: boolean onCreateOptionsMenu(android.view.Menu)>
-05-06 05:17:34.826  8609  8609 D GAPS    : METHOD=<com.chmod0.manpages.BrowserActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
-05-06 05:17:48.075  8609  8609 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$1: boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent)>
-05-06 05:17:48.075  8609  8609 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: com.chmod0.manpages.Page getManpageCalled(java.lang.String)>
-05-06 05:20:29.028  8609  8609 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: boolean onCreateOptionsMenu(android.view.Menu)>
-05-06 05:20:29.280  8609  8609 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: boolean onOptionsItemSelected(android.view.MenuItem)>

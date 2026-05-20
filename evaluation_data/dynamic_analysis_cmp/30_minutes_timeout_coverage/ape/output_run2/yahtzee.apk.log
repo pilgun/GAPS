@@ -1,0 +1,46 @@
+====== RESTART #1 2026-03-15 02:55:01 ======
+--------- beginning of kernel
+--------- beginning of main
+--------- beginning of crash
+--------- beginning of system
+03-15 02:55:02.374 14916 14916 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity
+03-15 02:55:02.374 14916 14916 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void <init>()>
+03-15 02:55:02.376 14916 14916 D GAPS    : ACTIVITY=com.tum.yahtzee.YahtzeeActivity
+03-15 02:55:02.376 14916 14916 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void onCreate(android.os.Bundle)>
+03-15 02:55:02.394 14916 14916 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity$1
+03-15 02:55:02.394 14916 14916 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity$1: void <init>(com.tum.yahtzee.YahtzeeActivity)>
+====== RESTART #2 2026-03-15 03:00:07 ======
+03-15 03:00:07.655  3923  3923 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity
+03-15 03:00:07.655  3923  3923 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void <init>()>
+03-15 03:00:07.659  3923  3923 D GAPS    : ACTIVITY=com.tum.yahtzee.YahtzeeActivity
+03-15 03:00:07.659  3923  3923 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void onCreate(android.os.Bundle)>
+03-15 03:00:07.671  3923  3923 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity$1
+03-15 03:00:07.671  3923  3923 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity$1: void <init>(com.tum.yahtzee.YahtzeeActivity)>
+====== RESTART #3 2026-03-15 03:05:14 ======
+03-15 03:05:15.478 24489 24489 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity
+03-15 03:05:15.478 24489 24489 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void <init>()>
+03-15 03:05:15.603 24489 24489 D GAPS    : ACTIVITY=com.tum.yahtzee.YahtzeeActivity
+03-15 03:05:15.603 24489 24489 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void onCreate(android.os.Bundle)>
+03-15 03:05:15.621 24489 24489 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity$1
+03-15 03:05:15.621 24489 24489 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity$1: void <init>(com.tum.yahtzee.YahtzeeActivity)>
+====== RESTART #4 2026-03-15 03:10:20 ======
+03-15 03:10:22.053 12283 12283 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity
+03-15 03:10:22.053 12283 12283 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void <init>()>
+03-15 03:10:22.057 12283 12283 D GAPS    : ACTIVITY=com.tum.yahtzee.YahtzeeActivity
+03-15 03:10:22.057 12283 12283 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void onCreate(android.os.Bundle)>
+03-15 03:10:22.079 12283 12283 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity$1
+03-15 03:10:22.079 12283 12283 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity$1: void <init>(com.tum.yahtzee.YahtzeeActivity)>
+====== RESTART #5 2026-03-15 03:15:27 ======
+03-15 03:15:29.096 31279 31279 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity
+03-15 03:15:29.096 31279 31279 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void <init>()>
+03-15 03:15:29.100 31279 31279 D GAPS    : ACTIVITY=com.tum.yahtzee.YahtzeeActivity
+03-15 03:15:29.100 31279 31279 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void onCreate(android.os.Bundle)>
+03-15 03:15:29.111 31279 31279 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity$1
+03-15 03:15:29.111 31279 31279 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity$1: void <init>(com.tum.yahtzee.YahtzeeActivity)>
+====== RESTART #6 2026-03-15 03:20:33 ======
+03-15 03:20:35.699 18847 18847 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity
+03-15 03:20:35.699 18847 18847 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void <init>()>
+03-15 03:20:35.709 18847 18847 D GAPS    : ACTIVITY=com.tum.yahtzee.YahtzeeActivity
+03-15 03:20:35.709 18847 18847 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity: void onCreate(android.os.Bundle)>
+03-15 03:20:35.730 18847 18847 D GAPS    : CLASS=com.tum.yahtzee.YahtzeeActivity$1
+03-15 03:20:35.730 18847 18847 D GAPS    : METHOD=<com.tum.yahtzee.YahtzeeActivity$1: void <init>(com.tum.yahtzee.YahtzeeActivity)>

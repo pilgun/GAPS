@@ -1,0 +1,64 @@
+====== RESTART #1 2026-03-15 23:14:40 ======
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+--------- beginning of kernel
+03-15 23:14:40.841   795   795 D GAPS    : CLASS=hu.vsza.adsdroid.SearchPanel
+03-15 23:14:40.841   795   795 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void <init>()>
+03-15 23:14:40.848   795   795 D GAPS    : ACTIVITY=hu.vsza.adsdroid.SearchPanel
+03-15 23:14:40.848   795   795 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void onCreate(android.os.Bundle)>
+03-15 23:14:40.869   795   795 D GAPS    : CLASS=hu.vsza.a.c
+03-15 23:14:40.869   795   795 D GAPS    : METHOD=<hu.vsza.a.c: void <clinit>()>
+03-15 23:14:40.869   795   795 D GAPS    : METHOD=<hu.vsza.a.c: void <init>(java.lang.String,int,int)>
+03-15 23:14:40.869   795   795 D GAPS    : METHOD=<hu.vsza.a.c: hu.vsza.a.c[] values()>
+03-15 23:14:40.883   795   795 D GAPS    : METHOD=<hu.vsza.a.c: java.lang.String toString()>
+====== RESTART #2 2026-03-15 23:19:45 ======
+03-15 23:19:46.610 27538 27538 D GAPS    : CLASS=hu.vsza.adsdroid.SearchPanel
+03-15 23:19:46.610 27538 27538 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void <init>()>
+03-15 23:19:46.616 27538 27538 D GAPS    : ACTIVITY=hu.vsza.adsdroid.SearchPanel
+03-15 23:19:46.616 27538 27538 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void onCreate(android.os.Bundle)>
+03-15 23:19:46.636 27538 27538 D GAPS    : CLASS=hu.vsza.a.c
+03-15 23:19:46.636 27538 27538 D GAPS    : METHOD=<hu.vsza.a.c: void <clinit>()>
+03-15 23:19:46.636 27538 27538 D GAPS    : METHOD=<hu.vsza.a.c: void <init>(java.lang.String,int,int)>
+03-15 23:19:46.636 27538 27538 D GAPS    : METHOD=<hu.vsza.a.c: hu.vsza.a.c[] values()>
+03-15 23:19:46.651 27538 27538 D GAPS    : METHOD=<hu.vsza.a.c: java.lang.String toString()>
+====== RESTART #3 2026-03-15 23:24:51 ======
+03-15 23:24:52.438 22718 22718 D GAPS    : CLASS=hu.vsza.adsdroid.SearchPanel
+03-15 23:24:52.438 22718 22718 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void <init>()>
+03-15 23:24:52.441 22718 22718 D GAPS    : ACTIVITY=hu.vsza.adsdroid.SearchPanel
+03-15 23:24:52.441 22718 22718 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void onCreate(android.os.Bundle)>
+03-15 23:24:52.472 22718 22718 D GAPS    : CLASS=hu.vsza.a.c
+03-15 23:24:52.473 22718 22718 D GAPS    : METHOD=<hu.vsza.a.c: void <clinit>()>
+03-15 23:24:52.473 22718 22718 D GAPS    : METHOD=<hu.vsza.a.c: void <init>(java.lang.String,int,int)>
+03-15 23:24:52.473 22718 22718 D GAPS    : METHOD=<hu.vsza.a.c: hu.vsza.a.c[] values()>
+03-15 23:24:52.500 22718 22718 D GAPS    : METHOD=<hu.vsza.a.c: java.lang.String toString()>
+====== RESTART #4 2026-03-15 23:29:57 ======
+03-15 23:29:57.975 17178 17178 D GAPS    : CLASS=hu.vsza.adsdroid.SearchPanel
+03-15 23:29:57.975 17178 17178 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void <init>()>
+03-15 23:29:57.978 17178 17178 D GAPS    : ACTIVITY=hu.vsza.adsdroid.SearchPanel
+03-15 23:29:57.978 17178 17178 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void onCreate(android.os.Bundle)>
+03-15 23:29:58.008 17178 17178 D GAPS    : CLASS=hu.vsza.a.c
+03-15 23:29:58.008 17178 17178 D GAPS    : METHOD=<hu.vsza.a.c: void <clinit>()>
+03-15 23:29:58.008 17178 17178 D GAPS    : METHOD=<hu.vsza.a.c: void <init>(java.lang.String,int,int)>
+03-15 23:29:58.008 17178 17178 D GAPS    : METHOD=<hu.vsza.a.c: hu.vsza.a.c[] values()>
+03-15 23:29:58.058 17178 17178 D GAPS    : METHOD=<hu.vsza.a.c: java.lang.String toString()>
+====== RESTART #5 2026-03-15 23:35:03 ======
+03-15 23:35:04.393 11210 11210 D GAPS    : CLASS=hu.vsza.adsdroid.SearchPanel
+03-15 23:35:04.393 11210 11210 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void <init>()>
+03-15 23:35:04.402 11210 11210 D GAPS    : ACTIVITY=hu.vsza.adsdroid.SearchPanel
+03-15 23:35:04.402 11210 11210 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void onCreate(android.os.Bundle)>
+03-15 23:35:04.440 11210 11210 D GAPS    : CLASS=hu.vsza.a.c
+03-15 23:35:04.440 11210 11210 D GAPS    : METHOD=<hu.vsza.a.c: void <clinit>()>
+03-15 23:35:04.440 11210 11210 D GAPS    : METHOD=<hu.vsza.a.c: void <init>(java.lang.String,int,int)>
+03-15 23:35:04.440 11210 11210 D GAPS    : METHOD=<hu.vsza.a.c: hu.vsza.a.c[] values()>
+03-15 23:35:04.471 11210 11210 D GAPS    : METHOD=<hu.vsza.a.c: java.lang.String toString()>
+====== RESTART #6 2026-03-15 23:40:09 ======
+03-15 23:40:09.985  4899  4899 D GAPS    : CLASS=hu.vsza.adsdroid.SearchPanel
+03-15 23:40:09.985  4899  4899 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void <init>()>
+03-15 23:40:09.988  4899  4899 D GAPS    : ACTIVITY=hu.vsza.adsdroid.SearchPanel
+03-15 23:40:09.988  4899  4899 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: void onCreate(android.os.Bundle)>
+03-15 23:40:10.004  4899  4899 D GAPS    : CLASS=hu.vsza.a.c
+03-15 23:40:10.004  4899  4899 D GAPS    : METHOD=<hu.vsza.a.c: void <clinit>()>
+03-15 23:40:10.004  4899  4899 D GAPS    : METHOD=<hu.vsza.a.c: void <init>(java.lang.String,int,int)>
+03-15 23:40:10.004  4899  4899 D GAPS    : METHOD=<hu.vsza.a.c: hu.vsza.a.c[] values()>
+03-15 23:40:10.034  4899  4899 D GAPS    : METHOD=<hu.vsza.a.c: java.lang.String toString()>

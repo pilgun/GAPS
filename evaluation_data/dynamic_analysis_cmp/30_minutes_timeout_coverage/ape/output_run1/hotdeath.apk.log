@@ -1,0 +1,40 @@
+====== RESTART #1 2026-03-14 08:24:21 ======
+--------- beginning of main
+--------- beginning of system
+--------- beginning of kernel
+--------- beginning of crash
+03-14 08:24:21.891 29430 29430 D GAPS    : CLASS=com.smorgasbork.hotdeath.Main
+03-14 08:24:21.891 29430 29430 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void <init>()>
+03-14 08:24:21.895 29430 29430 D GAPS    : ACTIVITY=com.smorgasbork.hotdeath.Main
+03-14 08:24:21.895 29430 29430 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onCreate(android.os.Bundle)>
+03-14 08:24:21.913 29430 29430 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onResume()>
+====== RESTART #2 2026-03-14 08:29:27 ======
+03-14 08:29:27.591 16006 16006 D GAPS    : CLASS=com.smorgasbork.hotdeath.Main
+03-14 08:29:27.591 16006 16006 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void <init>()>
+03-14 08:29:27.595 16006 16006 D GAPS    : ACTIVITY=com.smorgasbork.hotdeath.Main
+03-14 08:29:27.595 16006 16006 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onCreate(android.os.Bundle)>
+03-14 08:29:27.619 16006 16006 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onResume()>
+====== RESTART #3 2026-03-14 08:34:32 ======
+03-14 08:34:33.983 31614 31614 D GAPS    : CLASS=com.smorgasbork.hotdeath.Main
+03-14 08:34:33.983 31614 31614 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void <init>()>
+03-14 08:34:33.987 31614 31614 D GAPS    : ACTIVITY=com.smorgasbork.hotdeath.Main
+03-14 08:34:33.987 31614 31614 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onCreate(android.os.Bundle)>
+03-14 08:34:34.007 31614 31614 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onResume()>
+====== RESTART #4 2026-03-14 08:39:42 ======
+03-14 08:39:43.754 16103 16103 D GAPS    : CLASS=com.smorgasbork.hotdeath.Main
+03-14 08:39:43.754 16103 16103 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void <init>()>
+03-14 08:39:43.761 16103 16103 D GAPS    : ACTIVITY=com.smorgasbork.hotdeath.Main
+03-14 08:39:43.761 16103 16103 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onCreate(android.os.Bundle)>
+03-14 08:39:43.788 16103 16103 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onResume()>
+====== RESTART #5 2026-03-14 08:44:48 ======
+03-14 08:44:49.526 31015 31015 D GAPS    : CLASS=com.smorgasbork.hotdeath.Main
+03-14 08:44:49.526 31015 31015 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void <init>()>
+03-14 08:44:49.533 31015 31015 D GAPS    : ACTIVITY=com.smorgasbork.hotdeath.Main
+03-14 08:44:49.533 31015 31015 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onCreate(android.os.Bundle)>
+03-14 08:44:49.550 31015 31015 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onResume()>
+====== RESTART #6 2026-03-14 08:49:55 ======
+03-14 08:49:59.583 15893 15893 D GAPS    : CLASS=com.smorgasbork.hotdeath.Main
+03-14 08:49:59.583 15893 15893 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void <init>()>
+03-14 08:49:59.589 15893 15893 D GAPS    : ACTIVITY=com.smorgasbork.hotdeath.Main
+03-14 08:49:59.589 15893 15893 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onCreate(android.os.Bundle)>
+03-14 08:49:59.612 15893 15893 D GAPS    : METHOD=<com.smorgasbork.hotdeath.Main: void onResume()>
