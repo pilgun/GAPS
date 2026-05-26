@@ -1,0 +1,112 @@
+====== RESTART #1 2026-03-14 14:25:13 ======
+--------- beginning of main
+--------- beginning of system
+--------- beginning of kernel
+03-14 14:25:06.790  3941  3941 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity
+03-14 14:25:06.790  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void <init>()>
+03-14 14:25:06.790  3941  3941 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$3
+03-14 14:25:06.790  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$3: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:25:06.790  3941  3941 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$4
+03-14 14:25:06.790  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$4: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:25:06.790  3941  3941 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$5
+03-14 14:25:06.791  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$5: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:25:06.791  3941  3941 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$6
+03-14 14:25:06.791  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$6: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:25:06.791  3941  3941 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$7
+03-14 14:25:06.791  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$7: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:25:06.811  3941  3941 D GAPS    : ACTIVITY=info.bpace.munchlife.MunchLifeActivity
+03-14 14:25:06.811  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onCreate(android.os.Bundle)>
+03-14 14:25:06.839  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onStart()>
+03-14 14:25:06.843  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onResume()>
+03-14 14:25:07.814  3941  3941 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+--------- beginning of crash
+====== RESTART #2 2026-03-14 14:30:20 ======
+03-14 14:30:15.308 20967 20967 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity
+03-14 14:30:15.308 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void <init>()>
+03-14 14:30:15.308 20967 20967 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$3
+03-14 14:30:15.308 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$3: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:30:15.308 20967 20967 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$4
+03-14 14:30:15.308 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$4: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:30:15.309 20967 20967 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$5
+03-14 14:30:15.310 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$5: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:30:15.310 20967 20967 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$6
+03-14 14:30:15.310 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$6: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:30:15.311 20967 20967 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$7
+03-14 14:30:15.311 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$7: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:30:15.314 20967 20967 D GAPS    : ACTIVITY=info.bpace.munchlife.MunchLifeActivity
+03-14 14:30:15.314 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onCreate(android.os.Bundle)>
+03-14 14:30:15.379 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onStart()>
+03-14 14:30:15.383 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onResume()>
+03-14 14:30:16.481 20967 20967 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+====== RESTART #3 2026-03-14 14:35:27 ======
+03-14 14:35:21.010  5574  5574 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity
+03-14 14:35:21.010  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void <init>()>
+03-14 14:35:21.011  5574  5574 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$3
+03-14 14:35:21.011  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$3: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:35:21.011  5574  5574 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$4
+03-14 14:35:21.011  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$4: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:35:21.011  5574  5574 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$5
+03-14 14:35:21.011  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$5: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:35:21.011  5574  5574 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$6
+03-14 14:35:21.011  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$6: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:35:21.011  5574  5574 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$7
+03-14 14:35:21.011  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$7: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:35:21.016  5574  5574 D GAPS    : ACTIVITY=info.bpace.munchlife.MunchLifeActivity
+03-14 14:35:21.016  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onCreate(android.os.Bundle)>
+03-14 14:35:21.078  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onStart()>
+03-14 14:35:21.083  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onResume()>
+03-14 14:35:22.271  5574  5574 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+====== RESTART #4 2026-03-14 14:40:33 ======
+03-14 14:40:27.687 22239 22239 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity
+03-14 14:40:27.687 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void <init>()>
+03-14 14:40:27.687 22239 22239 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$3
+03-14 14:40:27.687 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$3: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:40:27.687 22239 22239 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$4
+03-14 14:40:27.687 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$4: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:40:27.687 22239 22239 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$5
+03-14 14:40:27.687 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$5: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:40:27.687 22239 22239 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$6
+03-14 14:40:27.687 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$6: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:40:27.687 22239 22239 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$7
+03-14 14:40:27.687 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$7: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:40:27.691 22239 22239 D GAPS    : ACTIVITY=info.bpace.munchlife.MunchLifeActivity
+03-14 14:40:27.691 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onCreate(android.os.Bundle)>
+03-14 14:40:27.714 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onStart()>
+03-14 14:40:27.717 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onResume()>
+03-14 14:40:30.111 22239 22239 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+====== RESTART #5 2026-03-14 14:45:40 ======
+03-14 14:45:35.067  6715  6715 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity
+03-14 14:45:35.067  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void <init>()>
+03-14 14:45:35.067  6715  6715 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$3
+03-14 14:45:35.067  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$3: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:45:35.067  6715  6715 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$4
+03-14 14:45:35.067  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$4: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:45:35.067  6715  6715 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$5
+03-14 14:45:35.067  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$5: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:45:35.067  6715  6715 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$6
+03-14 14:45:35.067  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$6: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:45:35.068  6715  6715 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$7
+03-14 14:45:35.068  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$7: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:45:35.071  6715  6715 D GAPS    : ACTIVITY=info.bpace.munchlife.MunchLifeActivity
+03-14 14:45:35.071  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onCreate(android.os.Bundle)>
+03-14 14:45:35.118  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onStart()>
+03-14 14:45:35.130  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onResume()>
+03-14 14:45:36.115  6715  6715 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: boolean onCreateOptionsMenu(android.view.Menu)>
+====== RESTART #6 2026-03-14 14:50:48 ======
+03-14 14:50:43.844 22355 22355 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity
+03-14 14:50:43.844 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void <init>()>
+03-14 14:50:43.844 22355 22355 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$3
+03-14 14:50:43.844 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$3: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:50:43.844 22355 22355 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$4
+03-14 14:50:43.844 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$4: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:50:43.844 22355 22355 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$5
+03-14 14:50:43.844 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$5: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:50:43.844 22355 22355 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$6
+03-14 14:50:43.844 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$6: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:50:43.844 22355 22355 D GAPS    : CLASS=info.bpace.munchlife.MunchLifeActivity$7
+03-14 14:50:43.844 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity$7: void <init>(info.bpace.munchlife.MunchLifeActivity)>
+03-14 14:50:43.848 22355 22355 D GAPS    : ACTIVITY=info.bpace.munchlife.MunchLifeActivity
+03-14 14:50:43.848 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onCreate(android.os.Bundle)>
+03-14 14:50:43.889 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onStart()>
+03-14 14:50:43.892 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: void onResume()>
+03-14 14:50:44.864 22355 22355 D GAPS    : METHOD=<info.bpace.munchlife.MunchLifeActivity: boolean onCreateOptionsMenu(android.view.Menu)>

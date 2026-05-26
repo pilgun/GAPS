@@ -1,6 +1,0 @@
---------- beginning of system
---------- beginning of main
-05-06 11:11:39.026 30960 30960 D GAPS    : METHOD=<com.kvance.Nectroid.PlaylistActivity: boolean onCreateOptionsMenu(android.view.Menu)>
-05-06 11:11:39.458 30960 30960 D GAPS    : METHOD=<com.kvance.Nectroid.PlaylistActivity: boolean onOptionsItemSelected(android.view.MenuItem)>
-05-06 11:12:31.836 30960 30960 D GAPS    : METHOD=<com.kvance.Nectroid.StreamsActivity: boolean onCreateOptionsMenu(android.view.Menu)>
-05-06 11:12:32.055 30960 30960 D GAPS    : METHOD=<com.kvance.Nectroid.StreamsActivity: boolean onOptionsItemSelected(android.view.MenuItem)>

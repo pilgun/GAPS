@@ -1,0 +1,100 @@
+====== RESTART #1 2026-03-16 12:16:20 ======
+--------- beginning of main
+--------- beginning of system
+--------- beginning of kernel
+03-16 12:16:21.497 24653 24653 D GAPS    : CLASS=com.android.lolcat.LolcatActivity
+03-16 12:16:21.497 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <clinit>()>
+03-16 12:16:21.498 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <init>()>
+03-16 12:16:21.498 24653 24653 D GAPS    : CLASS=com.android.lolcat.LolcatActivity$7
+03-16 12:16:21.498 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity$7: void <init>(com.android.lolcat.LolcatActivity)>
+03-16 12:16:21.500 24653 24653 D GAPS    : ACTIVITY=com.android.lolcat.LolcatActivity
+03-16 12:16:21.500 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onCreate(android.os.Bundle)>
+03-16 12:16:21.509 24653 24653 D GAPS    : CLASS=com.android.lolcat.LolcatView
+03-16 12:16:21.509 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 12:16:21.509 24653 24653 D GAPS    : CLASS=com.android.lolcat.LolcatView$Caption
+03-16 12:16:21.509 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatView$Caption: void <init>(com.android.lolcat.LolcatView)>
+03-16 12:16:21.517 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onResume()>
+03-16 12:16:21.517 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void updateButtons()>
+03-16 12:16:21.517 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatView: boolean hasValidCaption()>
+03-16 12:16:21.601 24653 24653 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void onDraw(android.graphics.Canvas)>
+--------- beginning of crash
+====== RESTART #2 2026-03-16 12:21:25 ======
+03-16 12:21:26.437 20189 20189 D GAPS    : CLASS=com.android.lolcat.LolcatActivity
+03-16 12:21:26.437 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <clinit>()>
+03-16 12:21:26.437 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <init>()>
+03-16 12:21:26.437 20189 20189 D GAPS    : CLASS=com.android.lolcat.LolcatActivity$7
+03-16 12:21:26.437 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity$7: void <init>(com.android.lolcat.LolcatActivity)>
+03-16 12:21:26.439 20189 20189 D GAPS    : ACTIVITY=com.android.lolcat.LolcatActivity
+03-16 12:21:26.439 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onCreate(android.os.Bundle)>
+03-16 12:21:26.475 20189 20189 D GAPS    : CLASS=com.android.lolcat.LolcatView
+03-16 12:21:26.475 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 12:21:26.475 20189 20189 D GAPS    : CLASS=com.android.lolcat.LolcatView$Caption
+03-16 12:21:26.475 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatView$Caption: void <init>(com.android.lolcat.LolcatView)>
+03-16 12:21:26.486 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onResume()>
+03-16 12:21:26.486 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void updateButtons()>
+03-16 12:21:26.486 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatView: boolean hasValidCaption()>
+03-16 12:21:26.563 20189 20189 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void onDraw(android.graphics.Canvas)>
+====== RESTART #3 2026-03-16 12:26:31 ======
+03-16 12:26:32.643 15093 15093 D GAPS    : CLASS=com.android.lolcat.LolcatActivity
+03-16 12:26:32.643 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <clinit>()>
+03-16 12:26:32.643 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <init>()>
+03-16 12:26:32.644 15093 15093 D GAPS    : CLASS=com.android.lolcat.LolcatActivity$7
+03-16 12:26:32.644 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity$7: void <init>(com.android.lolcat.LolcatActivity)>
+03-16 12:26:32.646 15093 15093 D GAPS    : ACTIVITY=com.android.lolcat.LolcatActivity
+03-16 12:26:32.647 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onCreate(android.os.Bundle)>
+03-16 12:26:32.654 15093 15093 D GAPS    : CLASS=com.android.lolcat.LolcatView
+03-16 12:26:32.654 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 12:26:32.655 15093 15093 D GAPS    : CLASS=com.android.lolcat.LolcatView$Caption
+03-16 12:26:32.655 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatView$Caption: void <init>(com.android.lolcat.LolcatView)>
+03-16 12:26:32.683 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onResume()>
+03-16 12:26:32.683 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void updateButtons()>
+03-16 12:26:32.683 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatView: boolean hasValidCaption()>
+03-16 12:26:32.754 15093 15093 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void onDraw(android.graphics.Canvas)>
+====== RESTART #4 2026-03-16 12:31:36 ======
+03-16 12:31:38.807  9365  9365 D GAPS    : CLASS=com.android.lolcat.LolcatActivity
+03-16 12:31:38.807  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <clinit>()>
+03-16 12:31:38.808  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <init>()>
+03-16 12:31:38.808  9365  9365 D GAPS    : CLASS=com.android.lolcat.LolcatActivity$7
+03-16 12:31:38.808  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity$7: void <init>(com.android.lolcat.LolcatActivity)>
+03-16 12:31:38.823  9365  9365 D GAPS    : ACTIVITY=com.android.lolcat.LolcatActivity
+03-16 12:31:38.823  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onCreate(android.os.Bundle)>
+03-16 12:31:38.834  9365  9365 D GAPS    : CLASS=com.android.lolcat.LolcatView
+03-16 12:31:38.834  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 12:31:38.834  9365  9365 D GAPS    : CLASS=com.android.lolcat.LolcatView$Caption
+03-16 12:31:38.834  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatView$Caption: void <init>(com.android.lolcat.LolcatView)>
+03-16 12:31:38.839  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onResume()>
+03-16 12:31:38.839  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void updateButtons()>
+03-16 12:31:38.839  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatView: boolean hasValidCaption()>
+03-16 12:31:38.934  9365  9365 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void onDraw(android.graphics.Canvas)>
+====== RESTART #5 2026-03-16 12:36:43 ======
+03-16 12:36:44.320  3204  3204 D GAPS    : CLASS=com.android.lolcat.LolcatActivity
+03-16 12:36:44.320  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <clinit>()>
+03-16 12:36:44.320  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <init>()>
+03-16 12:36:44.320  3204  3204 D GAPS    : CLASS=com.android.lolcat.LolcatActivity$7
+03-16 12:36:44.320  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity$7: void <init>(com.android.lolcat.LolcatActivity)>
+03-16 12:36:44.323  3204  3204 D GAPS    : ACTIVITY=com.android.lolcat.LolcatActivity
+03-16 12:36:44.323  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onCreate(android.os.Bundle)>
+03-16 12:36:44.344  3204  3204 D GAPS    : CLASS=com.android.lolcat.LolcatView
+03-16 12:36:44.344  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 12:36:44.345  3204  3204 D GAPS    : CLASS=com.android.lolcat.LolcatView$Caption
+03-16 12:36:44.345  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatView$Caption: void <init>(com.android.lolcat.LolcatView)>
+03-16 12:36:44.354  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onResume()>
+03-16 12:36:44.354  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void updateButtons()>
+03-16 12:36:44.354  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatView: boolean hasValidCaption()>
+03-16 12:36:44.436  3204  3204 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void onDraw(android.graphics.Canvas)>
+====== RESTART #6 2026-03-16 12:41:49 ======
+03-16 12:41:51.401 28503 28503 D GAPS    : CLASS=com.android.lolcat.LolcatActivity
+03-16 12:41:51.401 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <clinit>()>
+03-16 12:41:51.401 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void <init>()>
+03-16 12:41:51.401 28503 28503 D GAPS    : CLASS=com.android.lolcat.LolcatActivity$7
+03-16 12:41:51.401 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity$7: void <init>(com.android.lolcat.LolcatActivity)>
+03-16 12:41:51.405 28503 28503 D GAPS    : ACTIVITY=com.android.lolcat.LolcatActivity
+03-16 12:41:51.405 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onCreate(android.os.Bundle)>
+03-16 12:41:51.422 28503 28503 D GAPS    : CLASS=com.android.lolcat.LolcatView
+03-16 12:41:51.422 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 12:41:51.422 28503 28503 D GAPS    : CLASS=com.android.lolcat.LolcatView$Caption
+03-16 12:41:51.422 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatView$Caption: void <init>(com.android.lolcat.LolcatView)>
+03-16 12:41:51.451 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void onResume()>
+03-16 12:41:51.451 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatActivity: void updateButtons()>
+03-16 12:41:51.451 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatView: boolean hasValidCaption()>
+03-16 12:41:51.524 28503 28503 D GAPS    : METHOD=<com.android.lolcat.LolcatView: void onDraw(android.graphics.Canvas)>

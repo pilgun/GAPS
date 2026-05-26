@@ -1,0 +1,94 @@
+====== RESTART #1 2026-03-14 02:53:37 ======
+--------- beginning of kernel
+--------- beginning of main
+--------- beginning of system
+03-14 02:53:38.428  8174  8174 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog
+03-14 02:53:38.428  8174  8174 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void <init>()>
+03-14 02:53:38.428  8174  8174 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$1
+03-14 02:53:38.428  8174  8174 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$1: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:53:38.428  8174  8174 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$2
+03-14 02:53:38.428  8174  8174 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$2: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:53:38.429  8174  8174 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$3
+03-14 02:53:38.429  8174  8174 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$3: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:53:38.429  8174  8174 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$4
+03-14 02:53:38.429  8174  8174 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$4: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:53:38.429  8174  8174 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$5
+03-14 02:53:38.429  8174  8174 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$5: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:53:38.431  8174  8174 D GAPS    : ACTIVITY=net.sf.andbatdog.batterydog.BatteryDog
+03-14 02:53:38.431  8174  8174 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void onCreate(android.os.Bundle)>
+--------- beginning of crash
+====== RESTART #2 2026-03-14 02:58:44 ======
+03-14 02:58:45.139 27606 27606 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog
+03-14 02:58:45.139 27606 27606 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void <init>()>
+03-14 02:58:45.139 27606 27606 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$1
+03-14 02:58:45.139 27606 27606 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$1: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:58:45.139 27606 27606 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$2
+03-14 02:58:45.139 27606 27606 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$2: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:58:45.139 27606 27606 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$3
+03-14 02:58:45.139 27606 27606 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$3: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:58:45.139 27606 27606 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$4
+03-14 02:58:45.140 27606 27606 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$4: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:58:45.142 27606 27606 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$5
+03-14 02:58:45.143 27606 27606 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$5: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 02:58:45.150 27606 27606 D GAPS    : ACTIVITY=net.sf.andbatdog.batterydog.BatteryDog
+03-14 02:58:45.150 27606 27606 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void onCreate(android.os.Bundle)>
+====== RESTART #3 2026-03-14 03:03:49 ======
+03-14 03:03:50.495 13839 13839 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog
+03-14 03:03:50.495 13839 13839 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void <init>()>
+03-14 03:03:50.495 13839 13839 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$1
+03-14 03:03:50.495 13839 13839 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$1: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:03:50.495 13839 13839 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$2
+03-14 03:03:50.495 13839 13839 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$2: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:03:50.495 13839 13839 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$3
+03-14 03:03:50.495 13839 13839 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$3: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:03:50.495 13839 13839 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$4
+03-14 03:03:50.495 13839 13839 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$4: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:03:50.495 13839 13839 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$5
+03-14 03:03:50.495 13839 13839 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$5: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:03:50.511 13839 13839 D GAPS    : ACTIVITY=net.sf.andbatdog.batterydog.BatteryDog
+03-14 03:03:50.512 13839 13839 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void onCreate(android.os.Bundle)>
+====== RESTART #4 2026-03-14 03:08:56 ======
+03-14 03:08:58.810 32436 32436 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog
+03-14 03:08:58.811 32436 32436 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void <init>()>
+03-14 03:08:58.811 32436 32436 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$1
+03-14 03:08:58.811 32436 32436 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$1: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:08:58.811 32436 32436 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$2
+03-14 03:08:58.811 32436 32436 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$2: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:08:58.811 32436 32436 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$3
+03-14 03:08:58.811 32436 32436 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$3: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:08:58.811 32436 32436 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$4
+03-14 03:08:58.811 32436 32436 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$4: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:08:58.811 32436 32436 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$5
+03-14 03:08:58.811 32436 32436 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$5: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:08:58.824 32436 32436 D GAPS    : ACTIVITY=net.sf.andbatdog.batterydog.BatteryDog
+03-14 03:08:58.824 32436 32436 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void onCreate(android.os.Bundle)>
+====== RESTART #5 2026-03-14 03:14:03 ======
+03-14 03:14:04.629 18790 18790 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog
+03-14 03:14:04.629 18790 18790 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void <init>()>
+03-14 03:14:04.629 18790 18790 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$1
+03-14 03:14:04.629 18790 18790 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$1: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:14:04.631 18790 18790 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$2
+03-14 03:14:04.631 18790 18790 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$2: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:14:04.631 18790 18790 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$3
+03-14 03:14:04.631 18790 18790 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$3: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:14:04.632 18790 18790 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$4
+03-14 03:14:04.632 18790 18790 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$4: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:14:04.632 18790 18790 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$5
+03-14 03:14:04.632 18790 18790 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$5: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:14:04.642 18790 18790 D GAPS    : ACTIVITY=net.sf.andbatdog.batterydog.BatteryDog
+03-14 03:14:04.642 18790 18790 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void onCreate(android.os.Bundle)>
+====== RESTART #6 2026-03-14 03:19:10 ======
+03-14 03:19:11.633  4478  4478 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog
+03-14 03:19:11.633  4478  4478 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void <init>()>
+03-14 03:19:11.634  4478  4478 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$1
+03-14 03:19:11.634  4478  4478 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$1: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:19:11.634  4478  4478 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$2
+03-14 03:19:11.634  4478  4478 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$2: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:19:11.634  4478  4478 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$3
+03-14 03:19:11.634  4478  4478 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$3: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:19:11.634  4478  4478 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$4
+03-14 03:19:11.634  4478  4478 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$4: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:19:11.634  4478  4478 D GAPS    : CLASS=net.sf.andbatdog.batterydog.BatteryDog$5
+03-14 03:19:11.634  4478  4478 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog$5: void <init>(net.sf.andbatdog.batterydog.BatteryDog)>
+03-14 03:19:11.639  4478  4478 D GAPS    : ACTIVITY=net.sf.andbatdog.batterydog.BatteryDog
+03-14 03:19:11.639  4478  4478 D GAPS    : METHOD=<net.sf.andbatdog.batterydog.BatteryDog: void onCreate(android.os.Bundle)>

@@ -1,0 +1,88 @@
+====== RESTART #1 2026-03-16 16:16:52 ======
+--------- beginning of main
+--------- beginning of kernel
+--------- beginning of system
+03-16 16:16:53.787 27336 27336 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:16:53.787 27336 27336 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void <init>()>
+03-16 16:16:53.788 27336 27336 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$Task
+03-16 16:16:53.788 27336 27336 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$Task: void <init>(i4nc4mp.myLock.MainPreferenceActivity)>
+03-16 16:16:53.797 27336 27336 D GAPS    : ACTIVITY=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:16:53.797 27336 27336 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 16:16:53.850 27336 27336 D GAPS    : CLASS=i4nc4mp.myLock.MainDialogPreference
+03-16 16:16:53.850 27336 27336 D GAPS    : METHOD=<i4nc4mp.myLock.MainDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 16:16:53.851 27336 27336 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$1
+03-16 16:16:53.851 27336 27336 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$1: void <init>(i4nc4mp.myLock.MainPreferenceActivity,android.preference.CheckBoxPreference)>
+03-16 16:16:53.852 27336 27336 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onStart()>
+03-16 16:16:53.852 27336 27336 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void getPrefs()>
+03-16 16:16:53.855 27336 27336 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void updateStatus(boolean)>
+--------- beginning of crash
+====== RESTART #2 2026-03-16 16:21:59 ======
+03-16 16:22:00.567 20878 20878 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:22:00.567 20878 20878 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void <init>()>
+03-16 16:22:00.568 20878 20878 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$Task
+03-16 16:22:00.568 20878 20878 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$Task: void <init>(i4nc4mp.myLock.MainPreferenceActivity)>
+03-16 16:22:00.572 20878 20878 D GAPS    : ACTIVITY=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:22:00.572 20878 20878 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 16:22:00.590 20878 20878 D GAPS    : CLASS=i4nc4mp.myLock.MainDialogPreference
+03-16 16:22:00.590 20878 20878 D GAPS    : METHOD=<i4nc4mp.myLock.MainDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 16:22:00.591 20878 20878 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$1
+03-16 16:22:00.591 20878 20878 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$1: void <init>(i4nc4mp.myLock.MainPreferenceActivity,android.preference.CheckBoxPreference)>
+03-16 16:22:00.604 20878 20878 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onStart()>
+03-16 16:22:00.604 20878 20878 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void getPrefs()>
+03-16 16:22:00.605 20878 20878 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void updateStatus(boolean)>
+====== RESTART #3 2026-03-16 16:27:06 ======
+03-16 16:27:07.871 13935 13935 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:27:07.871 13935 13935 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void <init>()>
+03-16 16:27:07.872 13935 13935 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$Task
+03-16 16:27:07.872 13935 13935 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$Task: void <init>(i4nc4mp.myLock.MainPreferenceActivity)>
+03-16 16:27:07.876 13935 13935 D GAPS    : ACTIVITY=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:27:07.876 13935 13935 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 16:27:07.895 13935 13935 D GAPS    : CLASS=i4nc4mp.myLock.MainDialogPreference
+03-16 16:27:07.895 13935 13935 D GAPS    : METHOD=<i4nc4mp.myLock.MainDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 16:27:07.896 13935 13935 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$1
+03-16 16:27:07.896 13935 13935 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$1: void <init>(i4nc4mp.myLock.MainPreferenceActivity,android.preference.CheckBoxPreference)>
+03-16 16:27:07.914 13935 13935 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onStart()>
+03-16 16:27:07.914 13935 13935 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void getPrefs()>
+03-16 16:27:07.916 13935 13935 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void updateStatus(boolean)>
+====== RESTART #4 2026-03-16 16:32:11 ======
+03-16 16:32:13.433  6019  6019 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:32:13.433  6019  6019 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void <init>()>
+03-16 16:32:13.433  6019  6019 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$Task
+03-16 16:32:13.434  6019  6019 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$Task: void <init>(i4nc4mp.myLock.MainPreferenceActivity)>
+03-16 16:32:13.437  6019  6019 D GAPS    : ACTIVITY=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:32:13.437  6019  6019 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 16:32:13.451  6019  6019 D GAPS    : CLASS=i4nc4mp.myLock.MainDialogPreference
+03-16 16:32:13.451  6019  6019 D GAPS    : METHOD=<i4nc4mp.myLock.MainDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 16:32:13.452  6019  6019 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$1
+03-16 16:32:13.452  6019  6019 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$1: void <init>(i4nc4mp.myLock.MainPreferenceActivity,android.preference.CheckBoxPreference)>
+03-16 16:32:13.453  6019  6019 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onStart()>
+03-16 16:32:13.453  6019  6019 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void getPrefs()>
+03-16 16:32:13.455  6019  6019 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void updateStatus(boolean)>
+====== RESTART #5 2026-03-16 16:37:18 ======
+03-16 16:37:20.573 30240 30240 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:37:20.573 30240 30240 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void <init>()>
+03-16 16:37:20.574 30240 30240 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$Task
+03-16 16:37:20.574 30240 30240 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$Task: void <init>(i4nc4mp.myLock.MainPreferenceActivity)>
+03-16 16:37:20.582 30240 30240 D GAPS    : ACTIVITY=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:37:20.582 30240 30240 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 16:37:20.606 30240 30240 D GAPS    : CLASS=i4nc4mp.myLock.MainDialogPreference
+03-16 16:37:20.606 30240 30240 D GAPS    : METHOD=<i4nc4mp.myLock.MainDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 16:37:20.607 30240 30240 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$1
+03-16 16:37:20.607 30240 30240 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$1: void <init>(i4nc4mp.myLock.MainPreferenceActivity,android.preference.CheckBoxPreference)>
+03-16 16:37:20.608 30240 30240 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onStart()>
+03-16 16:37:20.608 30240 30240 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void getPrefs()>
+03-16 16:37:20.609 30240 30240 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void updateStatus(boolean)>
+====== RESTART #6 2026-03-16 16:42:23 ======
+03-16 16:42:25.327 21567 21567 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:42:25.327 21567 21567 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void <init>()>
+03-16 16:42:25.328 21567 21567 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$Task
+03-16 16:42:25.328 21567 21567 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$Task: void <init>(i4nc4mp.myLock.MainPreferenceActivity)>
+03-16 16:42:25.334 21567 21567 D GAPS    : ACTIVITY=i4nc4mp.myLock.MainPreferenceActivity
+03-16 16:42:25.334 21567 21567 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 16:42:25.354 21567 21567 D GAPS    : CLASS=i4nc4mp.myLock.MainDialogPreference
+03-16 16:42:25.354 21567 21567 D GAPS    : METHOD=<i4nc4mp.myLock.MainDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 16:42:25.355 21567 21567 D GAPS    : CLASS=i4nc4mp.myLock.MainPreferenceActivity$1
+03-16 16:42:25.355 21567 21567 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity$1: void <init>(i4nc4mp.myLock.MainPreferenceActivity,android.preference.CheckBoxPreference)>
+03-16 16:42:25.357 21567 21567 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void onStart()>
+03-16 16:42:25.357 21567 21567 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void getPrefs()>
+03-16 16:42:25.371 21567 21567 D GAPS    : METHOD=<i4nc4mp.myLock.MainPreferenceActivity: void updateStatus(boolean)>

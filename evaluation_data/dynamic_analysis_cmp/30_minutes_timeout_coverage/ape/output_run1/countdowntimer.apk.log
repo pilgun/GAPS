@@ -1,0 +1,76 @@
+====== RESTART #1 2026-03-14 05:23:52 ======
+--------- beginning of system
+--------- beginning of main
+--------- beginning of kernel
+--------- beginning of crash
+03-14 05:23:52.371  4309  4309 D GAPS    : CLASS=com.willianveiga.countdowntimer.MainActivity
+03-14 05:23:52.371  4309  4309 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void <init>()>
+03-14 05:23:52.374  4309  4309 D GAPS    : ACTIVITY=com.willianveiga.countdowntimer.MainActivity
+03-14 05:23:52.374  4309  4309 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void onCreate(android.os.Bundle)>
+03-14 05:23:52.388  4309  4309 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setUpCountdownTimer()>
+03-14 05:23:52.388  4309  4309 D GAPS    : CLASS=com.willianveiga.countdowntimer.Time.CountdownTimer
+03-14 05:23:52.388  4309  4309 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void <init>()>
+03-14 05:23:52.388  4309  4309 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnTickListener(com.willianveiga.countdowntimer.Time.OnTickListener)>
+03-14 05:23:52.388  4309  4309 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnFinishListener(com.willianveiga.countdowntimer.Time.OnFinishListener)>
+03-14 05:23:52.388  4309  4309 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setViewFields()>
+03-14 05:23:52.388  4309  4309 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void addEventListeners()>
+====== RESTART #2 2026-03-14 05:28:59 ======
+03-14 05:29:00.775 21914 21914 D GAPS    : CLASS=com.willianveiga.countdowntimer.MainActivity
+03-14 05:29:00.775 21914 21914 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void <init>()>
+03-14 05:29:00.781 21914 21914 D GAPS    : ACTIVITY=com.willianveiga.countdowntimer.MainActivity
+03-14 05:29:00.781 21914 21914 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void onCreate(android.os.Bundle)>
+03-14 05:29:00.802 21914 21914 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setUpCountdownTimer()>
+03-14 05:29:00.803 21914 21914 D GAPS    : CLASS=com.willianveiga.countdowntimer.Time.CountdownTimer
+03-14 05:29:00.803 21914 21914 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void <init>()>
+03-14 05:29:00.803 21914 21914 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnTickListener(com.willianveiga.countdowntimer.Time.OnTickListener)>
+03-14 05:29:00.803 21914 21914 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnFinishListener(com.willianveiga.countdowntimer.Time.OnFinishListener)>
+03-14 05:29:00.803 21914 21914 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setViewFields()>
+03-14 05:29:00.803 21914 21914 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void addEventListeners()>
+====== RESTART #3 2026-03-14 05:34:05 ======
+03-14 05:34:06.099  7643  7643 D GAPS    : CLASS=com.willianveiga.countdowntimer.MainActivity
+03-14 05:34:06.099  7643  7643 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void <init>()>
+03-14 05:34:06.103  7643  7643 D GAPS    : ACTIVITY=com.willianveiga.countdowntimer.MainActivity
+03-14 05:34:06.103  7643  7643 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void onCreate(android.os.Bundle)>
+03-14 05:34:06.125  7643  7643 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setUpCountdownTimer()>
+03-14 05:34:06.125  7643  7643 D GAPS    : CLASS=com.willianveiga.countdowntimer.Time.CountdownTimer
+03-14 05:34:06.125  7643  7643 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void <init>()>
+03-14 05:34:06.125  7643  7643 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnTickListener(com.willianveiga.countdowntimer.Time.OnTickListener)>
+03-14 05:34:06.125  7643  7643 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnFinishListener(com.willianveiga.countdowntimer.Time.OnFinishListener)>
+03-14 05:34:06.125  7643  7643 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setViewFields()>
+03-14 05:34:06.125  7643  7643 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void addEventListeners()>
+====== RESTART #4 2026-03-14 05:39:12 ======
+03-14 05:39:12.986 24145 24145 D GAPS    : CLASS=com.willianveiga.countdowntimer.MainActivity
+03-14 05:39:12.986 24145 24145 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void <init>()>
+03-14 05:39:12.991 24145 24145 D GAPS    : ACTIVITY=com.willianveiga.countdowntimer.MainActivity
+03-14 05:39:12.991 24145 24145 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void onCreate(android.os.Bundle)>
+03-14 05:39:13.025 24145 24145 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setUpCountdownTimer()>
+03-14 05:39:13.025 24145 24145 D GAPS    : CLASS=com.willianveiga.countdowntimer.Time.CountdownTimer
+03-14 05:39:13.025 24145 24145 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void <init>()>
+03-14 05:39:13.025 24145 24145 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnTickListener(com.willianveiga.countdowntimer.Time.OnTickListener)>
+03-14 05:39:13.025 24145 24145 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnFinishListener(com.willianveiga.countdowntimer.Time.OnFinishListener)>
+03-14 05:39:13.025 24145 24145 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setViewFields()>
+03-14 05:39:13.025 24145 24145 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void addEventListeners()>
+====== RESTART #5 2026-03-14 05:44:20 ======
+03-14 05:44:21.525  9460  9460 D GAPS    : CLASS=com.willianveiga.countdowntimer.MainActivity
+03-14 05:44:21.525  9460  9460 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void <init>()>
+03-14 05:44:21.553  9460  9460 D GAPS    : ACTIVITY=com.willianveiga.countdowntimer.MainActivity
+03-14 05:44:21.553  9460  9460 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void onCreate(android.os.Bundle)>
+03-14 05:44:21.621  9460  9460 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setUpCountdownTimer()>
+03-14 05:44:21.621  9460  9460 D GAPS    : CLASS=com.willianveiga.countdowntimer.Time.CountdownTimer
+03-14 05:44:21.621  9460  9460 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void <init>()>
+03-14 05:44:21.621  9460  9460 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnTickListener(com.willianveiga.countdowntimer.Time.OnTickListener)>
+03-14 05:44:21.621  9460  9460 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnFinishListener(com.willianveiga.countdowntimer.Time.OnFinishListener)>
+03-14 05:44:21.621  9460  9460 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setViewFields()>
+03-14 05:44:21.621  9460  9460 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void addEventListeners()>
+====== RESTART #6 2026-03-14 05:49:26 ======
+03-14 05:49:29.389 26486 26486 D GAPS    : CLASS=com.willianveiga.countdowntimer.MainActivity
+03-14 05:49:29.389 26486 26486 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void <init>()>
+03-14 05:49:29.404 26486 26486 D GAPS    : ACTIVITY=com.willianveiga.countdowntimer.MainActivity
+03-14 05:49:29.404 26486 26486 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void onCreate(android.os.Bundle)>
+03-14 05:49:29.417 26486 26486 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setUpCountdownTimer()>
+03-14 05:49:29.417 26486 26486 D GAPS    : CLASS=com.willianveiga.countdowntimer.Time.CountdownTimer
+03-14 05:49:29.417 26486 26486 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void <init>()>
+03-14 05:49:29.417 26486 26486 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnTickListener(com.willianveiga.countdowntimer.Time.OnTickListener)>
+03-14 05:49:29.417 26486 26486 D GAPS    : METHOD=<com.willianveiga.countdowntimer.Time.CountdownTimer: void setOnFinishListener(com.willianveiga.countdowntimer.Time.OnFinishListener)>
+03-14 05:49:29.417 26486 26486 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void setViewFields()>
+03-14 05:49:29.417 26486 26486 D GAPS    : METHOD=<com.willianveiga.countdowntimer.MainActivity: void addEventListeners()>

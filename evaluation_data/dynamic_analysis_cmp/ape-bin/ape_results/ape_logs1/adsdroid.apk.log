@@ -1,5 +1,0 @@
---------- beginning of system
---------- beginning of main
-05-06 02:45:51.193 14932 14932 D GAPS    : METHOD=<hu.vsza.adsdroid.c: void onPostExecute(java.lang.Object)>
-05-06 02:45:51.193 14932 14932 D GAPS    : METHOD=<hu.vsza.adsdroid.c: void a(java.util.ArrayList)>
-05-06 02:46:09.549 14932 14932 D GAPS    : METHOD=<hu.vsza.adsdroid.SearchPanel: boolean onEditorAction(android.widget.TextView,int,android.view.KeyEvent)>

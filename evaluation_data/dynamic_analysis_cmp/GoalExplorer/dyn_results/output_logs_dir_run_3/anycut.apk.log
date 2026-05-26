@@ -1,8 +1,0 @@
---------- beginning of main
-08-29 00:05:37.251 27017 27017 D GAPS    : METHOD=<org.jtb.alogcat.LogActivity: void onPause()>
-08-29 00:05:37.299  3104  3104 D GAPS    : CLASS=com.example.anycut.FrontDoorActivity
-08-29 00:05:37.299  3104  3104 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void <init>()>
-08-29 00:05:37.301  3104  3104 D GAPS    : ACTIVITY=com.example.anycut.FrontDoorActivity
-08-29 00:05:37.301  3104  3104 D GAPS    : METHOD=<com.example.anycut.FrontDoorActivity: void onCreate(android.os.Bundle)>
-08-29 00:05:37.800 27017 27017 D GAPS    : METHOD=<org.jtb.alogcat.LogActivity: void onSaveInstanceState(android.os.Bundle)>
-08-29 00:05:37.800 27017 27017 D GAPS    : METHOD=<org.jtb.alogcat.LogActivity: void onStop()>

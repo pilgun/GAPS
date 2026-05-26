@@ -1,0 +1,85 @@
+====== RESTART #1 2026-03-14 21:53:11 ======
+--------- beginning of main
+--------- beginning of kernel
+--------- beginning of system
+--------- beginning of crash
+====== RESTART #2 2026-03-14 22:14:46 ======
+====== RESTART #3 2026-03-14 22:17:48 ======
+====== RESTART #4 2026-03-14 22:17:54 ======
+====== RESTART #5 2026-03-14 22:18:05 ======
+====== RESTART #6 2026-03-14 22:18:11 ======
+03-14 22:18:19.501 22348 22348 D GAPS    : CLASS=com.bwx.bequick.SettingsApplication
+03-14 22:18:19.501 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.SettingsApplication: void <clinit>()>
+03-14 22:18:19.501 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.SettingsApplication: void <init>()>
+03-14 22:18:19.501 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.SettingsApplication: void onCreate()>
+03-14 22:18:19.604 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.fwk.SettingsFactory: com.bwx.bequick.fwk.Setting createSetting(int,int,java.lang.String,android.content.Context)>
+03-14 22:18:19.604 22348 22348 D GAPS    : CLASS=com.bwx.bequick.fwk.Setting
+03-14 22:18:19.605 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.fwk.Setting: void <clinit>()>
+03-14 22:18:19.605 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.fwk.Setting: void <init>(int,int)>
+03-14 22:18:19.605 22348 22348 D GAPS    : CLASS=com.bwx.bequick.fwk.RangeSetting
+03-14 22:18:19.605 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.fwk.RangeSetting: void <init>(int,int,int,int,int)>
+03-14 22:18:19.605 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.fwk.Setting: void <init>(int,int,int,java.lang.String)>
+03-14 22:18:19.606 22348 22348 D GAPS    : CLASS=com.bwx.bequick.Constants
+03-14 22:18:19.606 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.Constants: void <clinit>()>
+03-14 22:18:19.606 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.fwk.SettingsFactory: boolean isCDMA(android.content.Context)>
+03-14 22:18:19.607 22348 22348 D GAPS    : CLASS=com.bwx.bequick.SettingsApplication$1
+03-14 22:18:19.607 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.SettingsApplication$1: void <init>(com.bwx.bequick.SettingsApplication)>
+03-14 22:18:19.607 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.SettingsApplication$1: int compare(java.lang.Object,java.lang.Object)>
+03-14 22:18:19.607 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.SettingsApplication$1: int compare(com.bwx.bequick.fwk.Setting,com.bwx.bequick.fwk.Setting)>
+03-14 22:18:19.608 22348 22348 D GAPS    : CLASS=com.bwx.bequick.receivers.StatusBarIntegrationReceiver
+03-14 22:18:19.608 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.receivers.StatusBarIntegrationReceiver: void <init>()>
+03-14 22:18:19.608 22348 22348 D GAPS    : BROADCASTRECEIVER=com.bwx.bequick.receivers.StatusBarIntegrationReceiver
+03-14 22:18:19.608 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.receivers.StatusBarIntegrationReceiver: void onReceive(android.content.Context,android.content.Intent)>
+====== RESTART #7 2026-03-14 22:18:19 ======
+03-14 22:18:24.018 22348 22348 D GAPS    : METHOD=<com.bwx.bequick.receivers.StatusBarIntegrationReceiver: void sendNotification(android.content.Context,int,int,boolean)>
+====== RESTART #8 2026-03-14 22:18:24 ======
+====== RESTART #9 2026-03-14 22:18:29 ======
+====== RESTART #10 2026-03-14 22:18:37 ======
+====== RESTART #11 2026-03-14 22:18:41 ======
+====== RESTART #12 2026-03-14 22:18:47 ======
+====== RESTART #13 2026-03-14 22:18:53 ======
+====== RESTART #14 2026-03-14 22:18:59 ======
+====== RESTART #15 2026-03-14 22:19:04 ======
+====== RESTART #16 2026-03-14 22:19:10 ======
+====== RESTART #17 2026-03-14 22:19:16 ======
+====== RESTART #18 2026-03-14 22:19:21 ======
+====== RESTART #19 2026-03-14 22:19:27 ======
+====== RESTART #20 2026-03-14 22:19:33 ======
+====== RESTART #21 2026-03-14 22:19:38 ======
+====== RESTART #22 2026-03-14 22:19:42 ======
+====== RESTART #23 2026-03-14 22:19:47 ======
+====== RESTART #24 2026-03-14 22:19:53 ======
+====== RESTART #25 2026-03-14 22:19:58 ======
+====== RESTART #26 2026-03-14 22:20:04 ======
+====== RESTART #27 2026-03-14 22:20:11 ======
+====== RESTART #28 2026-03-14 22:20:16 ======
+====== RESTART #29 2026-03-14 22:20:21 ======
+====== RESTART #30 2026-03-14 22:20:27 ======
+====== RESTART #31 2026-03-14 22:20:33 ======
+====== RESTART #32 2026-03-14 22:20:38 ======
+====== RESTART #33 2026-03-14 22:20:45 ======
+====== RESTART #34 2026-03-14 22:20:51 ======
+====== RESTART #35 2026-03-14 22:20:57 ======
+====== RESTART #36 2026-03-14 22:21:01 ======
+====== RESTART #37 2026-03-14 22:21:08 ======
+====== RESTART #38 2026-03-14 22:21:14 ======
+====== RESTART #39 2026-03-14 22:21:20 ======
+====== RESTART #40 2026-03-14 22:21:25 ======
+====== RESTART #41 2026-03-14 22:21:32 ======
+====== RESTART #42 2026-03-14 22:21:39 ======
+====== RESTART #43 2026-03-14 22:21:44 ======
+====== RESTART #44 2026-03-14 22:21:50 ======
+====== RESTART #45 2026-03-14 22:21:55 ======
+====== RESTART #46 2026-03-14 22:22:00 ======
+====== RESTART #47 2026-03-14 22:22:06 ======
+====== RESTART #48 2026-03-14 22:22:11 ======
+====== RESTART #49 2026-03-14 22:22:17 ======
+====== RESTART #50 2026-03-14 22:22:22 ======
+====== RESTART #51 2026-03-14 22:22:27 ======
+====== RESTART #52 2026-03-14 22:22:35 ======
+====== RESTART #53 2026-03-14 22:22:40 ======
+====== RESTART #54 2026-03-14 22:22:46 ======
+====== RESTART #55 2026-03-14 22:22:51 ======
+====== RESTART #56 2026-03-14 22:22:57 ======
+====== RESTART #57 2026-03-14 22:23:03 ======
+====== RESTART #58 2026-03-14 22:23:08 ======

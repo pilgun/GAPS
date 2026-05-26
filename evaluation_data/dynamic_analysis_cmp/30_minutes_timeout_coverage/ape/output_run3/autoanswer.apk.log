@@ -1,0 +1,71 @@
+====== RESTART #1 2026-03-16 02:45:06 ======
+--------- beginning of kernel
+--------- beginning of main
+--------- beginning of system
+--------- beginning of crash
+03-16 02:45:07.681  6836  6836 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 02:45:07.681  6836  6836 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void <init>()>
+03-16 02:45:07.684  6836  6836 D GAPS    : ACTIVITY=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 02:45:07.684  6836  6836 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 02:45:07.720  6836  6836 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerNotifier
+03-16 02:45:07.720  6836  6836 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void <init>(android.content.Context)>
+03-16 02:45:07.720  6836  6836 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void updateNotification()>
+03-16 02:45:07.721  6836  6836 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void disableNotification()>
+03-16 02:45:07.724  6836  6836 D GAPS    : CLASS=com.everysoft.autoanswer.preference.AutoAnswerDialogPreference
+03-16 02:45:07.725  6836  6836 D GAPS    : METHOD=<com.everysoft.autoanswer.preference.AutoAnswerDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+03-16 02:45:07.726  6836  6836 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void onSharedPreferenceChanged(android.content.SharedPreferences,java.lang.String)>
+====== RESTART #2 2026-03-16 02:50:11 ======
+03-16 02:50:12.420  3278  3278 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 02:50:12.420  3278  3278 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void <init>()>
+03-16 02:50:12.422  3278  3278 D GAPS    : ACTIVITY=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 02:50:12.422  3278  3278 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 02:50:12.436  3278  3278 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerNotifier
+03-16 02:50:12.436  3278  3278 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void <init>(android.content.Context)>
+03-16 02:50:12.436  3278  3278 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void updateNotification()>
+03-16 02:50:12.437  3278  3278 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void disableNotification()>
+03-16 02:50:12.439  3278  3278 D GAPS    : CLASS=com.everysoft.autoanswer.preference.AutoAnswerDialogPreference
+03-16 02:50:12.439  3278  3278 D GAPS    : METHOD=<com.everysoft.autoanswer.preference.AutoAnswerDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+====== RESTART #3 2026-03-16 02:55:18 ======
+03-16 02:55:19.963 30520 30520 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 02:55:19.963 30520 30520 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void <init>()>
+03-16 02:55:20.403 30520 30520 D GAPS    : ACTIVITY=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 02:55:20.403 30520 30520 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 02:55:20.418 30520 30520 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerNotifier
+03-16 02:55:20.418 30520 30520 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void <init>(android.content.Context)>
+03-16 02:55:20.424 30520 30520 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void updateNotification()>
+03-16 02:55:20.436 30520 30520 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void disableNotification()>
+03-16 02:55:20.438 30520 30520 D GAPS    : CLASS=com.everysoft.autoanswer.preference.AutoAnswerDialogPreference
+03-16 02:55:20.438 30520 30520 D GAPS    : METHOD=<com.everysoft.autoanswer.preference.AutoAnswerDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+====== RESTART #4 2026-03-16 03:00:26 ======
+03-16 03:00:27.134 24790 24790 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 03:00:27.134 24790 24790 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void <init>()>
+03-16 03:00:27.137 24790 24790 D GAPS    : ACTIVITY=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 03:00:27.138 24790 24790 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 03:00:27.157 24790 24790 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerNotifier
+03-16 03:00:27.157 24790 24790 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void <init>(android.content.Context)>
+03-16 03:00:27.157 24790 24790 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void updateNotification()>
+03-16 03:00:27.158 24790 24790 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void disableNotification()>
+03-16 03:00:27.168 24790 24790 D GAPS    : CLASS=com.everysoft.autoanswer.preference.AutoAnswerDialogPreference
+03-16 03:00:27.168 24790 24790 D GAPS    : METHOD=<com.everysoft.autoanswer.preference.AutoAnswerDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+====== RESTART #5 2026-03-16 03:05:32 ======
+03-16 03:05:35.191 18989 18989 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 03:05:35.191 18989 18989 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void <init>()>
+03-16 03:05:35.195 18989 18989 D GAPS    : ACTIVITY=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 03:05:35.195 18989 18989 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 03:05:35.210 18989 18989 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerNotifier
+03-16 03:05:35.211 18989 18989 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void <init>(android.content.Context)>
+03-16 03:05:35.211 18989 18989 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void updateNotification()>
+03-16 03:05:35.215 18989 18989 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void disableNotification()>
+03-16 03:05:35.218 18989 18989 D GAPS    : CLASS=com.everysoft.autoanswer.preference.AutoAnswerDialogPreference
+03-16 03:05:35.218 18989 18989 D GAPS    : METHOD=<com.everysoft.autoanswer.preference.AutoAnswerDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>
+====== RESTART #6 2026-03-16 03:10:40 ======
+03-16 03:10:42.106 13080 13080 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 03:10:42.106 13080 13080 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void <init>()>
+03-16 03:10:42.119 13080 13080 D GAPS    : ACTIVITY=com.everysoft.autoanswer.AutoAnswerPreferenceActivity
+03-16 03:10:42.119 13080 13080 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerPreferenceActivity: void onCreate(android.os.Bundle)>
+03-16 03:10:42.178 13080 13080 D GAPS    : CLASS=com.everysoft.autoanswer.AutoAnswerNotifier
+03-16 03:10:42.178 13080 13080 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void <init>(android.content.Context)>
+03-16 03:10:42.179 13080 13080 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void updateNotification()>
+03-16 03:10:42.184 13080 13080 D GAPS    : METHOD=<com.everysoft.autoanswer.AutoAnswerNotifier: void disableNotification()>
+03-16 03:10:42.186 13080 13080 D GAPS    : CLASS=com.everysoft.autoanswer.preference.AutoAnswerDialogPreference
+03-16 03:10:42.186 13080 13080 D GAPS    : METHOD=<com.everysoft.autoanswer.preference.AutoAnswerDialogPreference: void <init>(android.content.Context,android.util.AttributeSet)>

@@ -1,0 +1,46 @@
+====== RESTART #1 2026-03-14 10:24:38 ======
+--------- beginning of kernel
+--------- beginning of system
+--------- beginning of main
+--------- beginning of crash
+03-14 10:24:39.346  7791  7791 D GAPS    : CLASS=net.fercanet.LNM.MainMenu
+03-14 10:24:39.346  7791  7791 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void <init>()>
+03-14 10:24:39.346  7791  7791 D GAPS    : CLASS=net.fercanet.LNM.MainMenu$1
+03-14 10:24:39.346  7791  7791 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu$1: void <init>(net.fercanet.LNM.MainMenu)>
+03-14 10:24:39.348  7791  7791 D GAPS    : ACTIVITY=net.fercanet.LNM.MainMenu
+03-14 10:24:39.348  7791  7791 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void onCreate(android.os.Bundle)>
+====== RESTART #2 2026-03-14 10:29:47 ======
+03-14 10:29:48.652 23475 23475 D GAPS    : CLASS=net.fercanet.LNM.MainMenu
+03-14 10:29:48.652 23475 23475 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void <init>()>
+03-14 10:29:48.652 23475 23475 D GAPS    : CLASS=net.fercanet.LNM.MainMenu$1
+03-14 10:29:48.652 23475 23475 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu$1: void <init>(net.fercanet.LNM.MainMenu)>
+03-14 10:29:48.657 23475 23475 D GAPS    : ACTIVITY=net.fercanet.LNM.MainMenu
+03-14 10:29:48.657 23475 23475 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void onCreate(android.os.Bundle)>
+====== RESTART #3 2026-03-14 10:34:52 ======
+03-14 10:34:54.025  6849  6849 D GAPS    : CLASS=net.fercanet.LNM.MainMenu
+03-14 10:34:54.025  6849  6849 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void <init>()>
+03-14 10:34:54.025  6849  6849 D GAPS    : CLASS=net.fercanet.LNM.MainMenu$1
+03-14 10:34:54.025  6849  6849 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu$1: void <init>(net.fercanet.LNM.MainMenu)>
+03-14 10:34:54.029  6849  6849 D GAPS    : ACTIVITY=net.fercanet.LNM.MainMenu
+03-14 10:34:54.029  6849  6849 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void onCreate(android.os.Bundle)>
+====== RESTART #4 2026-03-14 10:39:58 ======
+03-14 10:40:00.058 21939 21939 D GAPS    : CLASS=net.fercanet.LNM.MainMenu
+03-14 10:40:00.059 21939 21939 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void <init>()>
+03-14 10:40:00.059 21939 21939 D GAPS    : CLASS=net.fercanet.LNM.MainMenu$1
+03-14 10:40:00.059 21939 21939 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu$1: void <init>(net.fercanet.LNM.MainMenu)>
+03-14 10:40:00.061 21939 21939 D GAPS    : ACTIVITY=net.fercanet.LNM.MainMenu
+03-14 10:40:00.061 21939 21939 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void onCreate(android.os.Bundle)>
+====== RESTART #5 2026-03-14 10:45:05 ======
+03-14 10:45:08.014  3434  3434 D GAPS    : CLASS=net.fercanet.LNM.MainMenu
+03-14 10:45:08.014  3434  3434 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void <init>()>
+03-14 10:45:08.014  3434  3434 D GAPS    : CLASS=net.fercanet.LNM.MainMenu$1
+03-14 10:45:08.014  3434  3434 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu$1: void <init>(net.fercanet.LNM.MainMenu)>
+03-14 10:45:08.023  3434  3434 D GAPS    : ACTIVITY=net.fercanet.LNM.MainMenu
+03-14 10:45:08.023  3434  3434 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void onCreate(android.os.Bundle)>
+====== RESTART #6 2026-03-14 10:50:13 ======
+03-14 10:50:15.449 18149 18149 D GAPS    : CLASS=net.fercanet.LNM.MainMenu
+03-14 10:50:15.449 18149 18149 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void <init>()>
+03-14 10:50:15.449 18149 18149 D GAPS    : CLASS=net.fercanet.LNM.MainMenu$1
+03-14 10:50:15.449 18149 18149 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu$1: void <init>(net.fercanet.LNM.MainMenu)>
+03-14 10:50:15.452 18149 18149 D GAPS    : ACTIVITY=net.fercanet.LNM.MainMenu
+03-14 10:50:15.452 18149 18149 D GAPS    : METHOD=<net.fercanet.LNM.MainMenu: void onCreate(android.os.Bundle)>

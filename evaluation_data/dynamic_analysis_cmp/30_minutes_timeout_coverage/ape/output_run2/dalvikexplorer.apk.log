@@ -1,0 +1,112 @@
+====== RESTART #1 2026-03-14 05:54:01 ======
+--------- beginning of kernel
+--------- beginning of main
+--------- beginning of crash
+--------- beginning of system
+03-14 05:54:02.449  6975  6975 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 05:54:02.449  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <clinit>()>
+03-14 05:54:02.450  6975  6975 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity
+03-14 05:54:02.450  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class,org.jessies.dalvikexplorer.DalvikExplorerActivity$1)>
+03-14 05:54:02.450  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class)>
+03-14 05:54:02.451  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <init>()>
+03-14 05:54:02.453  6975  6975 D GAPS    : ACTIVITY=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 05:54:02.453  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void onCreate(android.os.Bundle)>
+03-14 05:54:02.454  6975  6975 D GAPS    : CLASS=org.jessies.dalvikexplorer.BetterArrayAdapter
+03-14 05:54:02.454  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void <init>(android.content.Context,java.util.List,boolean)>
+03-14 05:54:02.454  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void init(android.content.Context,int,java.util.List)>
+03-14 05:54:02.737  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: int getCount()>
+03-14 05:54:02.737  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: long getItemId(int)>
+03-14 05:54:02.787  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>
+03-14 05:54:02.787  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int)>
+03-14 05:54:02.787  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: java.lang.Object getItem(int)>
+03-14 05:54:02.787  6975  6975 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: java.lang.String toString()>
+====== RESTART #2 2026-03-14 05:59:07 ======
+03-14 05:59:08.412 27408 27408 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 05:59:08.412 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <clinit>()>
+03-14 05:59:08.413 27408 27408 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity
+03-14 05:59:08.413 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class,org.jessies.dalvikexplorer.DalvikExplorerActivity$1)>
+03-14 05:59:08.413 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class)>
+03-14 05:59:08.424 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <init>()>
+03-14 05:59:08.428 27408 27408 D GAPS    : ACTIVITY=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 05:59:08.428 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void onCreate(android.os.Bundle)>
+03-14 05:59:08.428 27408 27408 D GAPS    : CLASS=org.jessies.dalvikexplorer.BetterArrayAdapter
+03-14 05:59:08.428 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void <init>(android.content.Context,java.util.List,boolean)>
+03-14 05:59:08.429 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void init(android.content.Context,int,java.util.List)>
+03-14 05:59:08.447 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: int getCount()>
+03-14 05:59:08.447 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: long getItemId(int)>
+03-14 05:59:08.505 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>
+03-14 05:59:08.505 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int)>
+03-14 05:59:08.505 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: java.lang.Object getItem(int)>
+03-14 05:59:08.505 27408 27408 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: java.lang.String toString()>
+====== RESTART #3 2026-03-14 06:04:13 ======
+03-14 06:04:14.519 14245 14245 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 06:04:14.520 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <clinit>()>
+03-14 06:04:14.520 14245 14245 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity
+03-14 06:04:14.520 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class,org.jessies.dalvikexplorer.DalvikExplorerActivity$1)>
+03-14 06:04:14.520 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class)>
+03-14 06:04:14.527 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <init>()>
+03-14 06:04:14.534 14245 14245 D GAPS    : ACTIVITY=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 06:04:14.534 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void onCreate(android.os.Bundle)>
+03-14 06:04:14.535 14245 14245 D GAPS    : CLASS=org.jessies.dalvikexplorer.BetterArrayAdapter
+03-14 06:04:14.535 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void <init>(android.content.Context,java.util.List,boolean)>
+03-14 06:04:14.535 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void init(android.content.Context,int,java.util.List)>
+03-14 06:04:14.551 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: int getCount()>
+03-14 06:04:14.551 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: long getItemId(int)>
+03-14 06:04:14.636 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>
+03-14 06:04:14.636 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int)>
+03-14 06:04:14.637 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: java.lang.Object getItem(int)>
+03-14 06:04:14.637 14245 14245 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: java.lang.String toString()>
+====== RESTART #4 2026-03-14 06:09:20 ======
+03-14 06:09:21.014 30634 30634 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 06:09:21.014 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <clinit>()>
+03-14 06:09:21.015 30634 30634 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity
+03-14 06:09:21.015 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class,org.jessies.dalvikexplorer.DalvikExplorerActivity$1)>
+03-14 06:09:21.015 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class)>
+03-14 06:09:21.018 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <init>()>
+03-14 06:09:21.028 30634 30634 D GAPS    : ACTIVITY=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 06:09:21.028 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void onCreate(android.os.Bundle)>
+03-14 06:09:21.028 30634 30634 D GAPS    : CLASS=org.jessies.dalvikexplorer.BetterArrayAdapter
+03-14 06:09:21.028 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void <init>(android.content.Context,java.util.List,boolean)>
+03-14 06:09:21.028 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void init(android.content.Context,int,java.util.List)>
+03-14 06:09:21.073 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: int getCount()>
+03-14 06:09:21.073 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: long getItemId(int)>
+03-14 06:09:21.090 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>
+03-14 06:09:21.090 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int)>
+03-14 06:09:21.090 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: java.lang.Object getItem(int)>
+03-14 06:09:21.090 30634 30634 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: java.lang.String toString()>
+====== RESTART #5 2026-03-14 06:14:26 ======
+03-14 06:14:27.825 14581 14581 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 06:14:27.825 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <clinit>()>
+03-14 06:14:27.825 14581 14581 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity
+03-14 06:14:27.825 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class,org.jessies.dalvikexplorer.DalvikExplorerActivity$1)>
+03-14 06:14:27.825 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class)>
+03-14 06:14:27.827 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <init>()>
+03-14 06:14:27.834 14581 14581 D GAPS    : ACTIVITY=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 06:14:27.834 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void onCreate(android.os.Bundle)>
+03-14 06:14:27.835 14581 14581 D GAPS    : CLASS=org.jessies.dalvikexplorer.BetterArrayAdapter
+03-14 06:14:27.835 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void <init>(android.content.Context,java.util.List,boolean)>
+03-14 06:14:27.835 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void init(android.content.Context,int,java.util.List)>
+03-14 06:14:27.967 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: int getCount()>
+03-14 06:14:27.967 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: long getItemId(int)>
+03-14 06:14:28.047 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>
+03-14 06:14:28.047 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int)>
+03-14 06:14:28.047 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: java.lang.Object getItem(int)>
+03-14 06:14:28.048 14581 14581 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: java.lang.String toString()>
+====== RESTART #6 2026-03-14 06:19:34 ======
+03-14 06:19:36.281 30005 30005 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 06:19:36.281 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <clinit>()>
+03-14 06:19:36.281 30005 30005 D GAPS    : CLASS=org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity
+03-14 06:19:36.281 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class,org.jessies.dalvikexplorer.DalvikExplorerActivity$1)>
+03-14 06:19:36.281 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: void <init>(java.lang.String,java.lang.Class)>
+03-14 06:19:36.284 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void <init>()>
+03-14 06:19:36.292 30005 30005 D GAPS    : ACTIVITY=org.jessies.dalvikexplorer.DalvikExplorerActivity
+03-14 06:19:36.292 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity: void onCreate(android.os.Bundle)>
+03-14 06:19:36.293 30005 30005 D GAPS    : CLASS=org.jessies.dalvikexplorer.BetterArrayAdapter
+03-14 06:19:36.293 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void <init>(android.content.Context,java.util.List,boolean)>
+03-14 06:19:36.293 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: void init(android.content.Context,int,java.util.List)>
+03-14 06:19:36.314 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: int getCount()>
+03-14 06:19:36.314 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: long getItemId(int)>
+03-14 06:19:36.360 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View getView(int,android.view.View,android.view.ViewGroup)>
+03-14 06:19:36.360 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: android.view.View createViewFromResource(int,android.view.View,android.view.ViewGroup,int)>
+03-14 06:19:36.360 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.BetterArrayAdapter: java.lang.Object getItem(int)>
+03-14 06:19:36.361 30005 30005 D GAPS    : METHOD=<org.jessies.dalvikexplorer.DalvikExplorerActivity$NamedActivity: java.lang.String toString()>

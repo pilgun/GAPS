@@ -1,0 +1,112 @@
+====== RESTART #1 2026-03-16 12:46:27 ======
+--------- beginning of main
+--------- beginning of system
+--------- beginning of kernel
+03-16 12:46:28.243 19907 19907 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity
+03-16 12:46:28.243 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void <init>()>
+03-16 12:46:28.268 19907 19907 D GAPS    : ACTIVITY=com.chmod0.manpages.ManualActivity
+03-16 12:46:28.268 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void onCreate(android.os.Bundle)>
+03-16 12:46:28.331 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList initPages()>
+03-16 12:46:28.331 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList loadPagesNames(int,int)>
+03-16 12:46:28.332 19907 19907 D GAPS    : CLASS=com.chmod0.manpages.Page
+03-16 12:46:28.332 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.Page: void <init>(java.lang.String,int)>
+03-16 12:46:28.336 19907 19907 D GAPS    : CLASS=com.chmod0.manpages.OnManpageClickListener
+03-16 12:46:28.336 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.OnManpageClickListener: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:46:28.336 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: boolean checkPageFilesOnExternalStorage(java.lang.String)>
+03-16 12:46:28.340 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void suggestDownload()>
+03-16 12:46:28.342 19907 19907 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$2
+03-16 12:46:28.342 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$2: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:46:28.359 19907 19907 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$1
+03-16 12:46:28.360 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$1: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:46:28.464 19907 19907 D GAPS    : METHOD=<com.chmod0.manpages.Page: java.lang.String toString()>
+--------- beginning of crash
+====== RESTART #2 2026-03-16 12:51:34 ======
+03-16 12:51:36.314 15296 15296 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity
+03-16 12:51:36.314 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void <init>()>
+03-16 12:51:36.320 15296 15296 D GAPS    : ACTIVITY=com.chmod0.manpages.ManualActivity
+03-16 12:51:36.320 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void onCreate(android.os.Bundle)>
+03-16 12:51:36.419 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList initPages()>
+03-16 12:51:36.420 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList loadPagesNames(int,int)>
+03-16 12:51:36.420 15296 15296 D GAPS    : CLASS=com.chmod0.manpages.Page
+03-16 12:51:36.420 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.Page: void <init>(java.lang.String,int)>
+03-16 12:51:36.431 15296 15296 D GAPS    : CLASS=com.chmod0.manpages.OnManpageClickListener
+03-16 12:51:36.431 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.OnManpageClickListener: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:51:36.432 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: boolean checkPageFilesOnExternalStorage(java.lang.String)>
+03-16 12:51:36.446 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void suggestDownload()>
+03-16 12:51:36.446 15296 15296 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$2
+03-16 12:51:36.446 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$2: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:51:36.458 15296 15296 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$1
+03-16 12:51:36.458 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$1: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:51:36.698 15296 15296 D GAPS    : METHOD=<com.chmod0.manpages.Page: java.lang.String toString()>
+====== RESTART #3 2026-03-16 12:56:40 ======
+03-16 12:56:42.329 10206 10206 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity
+03-16 12:56:42.329 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void <init>()>
+03-16 12:56:42.332 10206 10206 D GAPS    : ACTIVITY=com.chmod0.manpages.ManualActivity
+03-16 12:56:42.332 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void onCreate(android.os.Bundle)>
+03-16 12:56:42.353 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList initPages()>
+03-16 12:56:42.353 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList loadPagesNames(int,int)>
+03-16 12:56:42.353 10206 10206 D GAPS    : CLASS=com.chmod0.manpages.Page
+03-16 12:56:42.353 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.Page: void <init>(java.lang.String,int)>
+03-16 12:56:42.357 10206 10206 D GAPS    : CLASS=com.chmod0.manpages.OnManpageClickListener
+03-16 12:56:42.357 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.OnManpageClickListener: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:56:42.357 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: boolean checkPageFilesOnExternalStorage(java.lang.String)>
+03-16 12:56:42.362 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void suggestDownload()>
+03-16 12:56:42.363 10206 10206 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$2
+03-16 12:56:42.363 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$2: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:56:42.373 10206 10206 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$1
+03-16 12:56:42.373 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$1: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 12:56:42.724 10206 10206 D GAPS    : METHOD=<com.chmod0.manpages.Page: java.lang.String toString()>
+====== RESTART #4 2026-03-16 13:01:47 ======
+03-16 13:01:49.797  4264  4264 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity
+03-16 13:01:49.797  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void <init>()>
+03-16 13:01:49.800  4264  4264 D GAPS    : ACTIVITY=com.chmod0.manpages.ManualActivity
+03-16 13:01:49.801  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void onCreate(android.os.Bundle)>
+03-16 13:01:49.815  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList initPages()>
+03-16 13:01:49.815  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList loadPagesNames(int,int)>
+03-16 13:01:49.816  4264  4264 D GAPS    : CLASS=com.chmod0.manpages.Page
+03-16 13:01:49.816  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.Page: void <init>(java.lang.String,int)>
+03-16 13:01:49.820  4264  4264 D GAPS    : CLASS=com.chmod0.manpages.OnManpageClickListener
+03-16 13:01:49.820  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.OnManpageClickListener: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:01:49.820  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: boolean checkPageFilesOnExternalStorage(java.lang.String)>
+03-16 13:01:49.911  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void suggestDownload()>
+03-16 13:01:49.912  4264  4264 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$2
+03-16 13:01:49.912  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$2: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:01:49.922  4264  4264 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$1
+03-16 13:01:49.922  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$1: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:01:50.061  4264  4264 D GAPS    : METHOD=<com.chmod0.manpages.Page: java.lang.String toString()>
+====== RESTART #5 2026-03-16 13:06:54 ======
+03-16 13:06:55.370 29648 29648 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity
+03-16 13:06:55.370 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void <init>()>
+03-16 13:06:55.372 29648 29648 D GAPS    : ACTIVITY=com.chmod0.manpages.ManualActivity
+03-16 13:06:55.372 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void onCreate(android.os.Bundle)>
+03-16 13:06:55.424 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList initPages()>
+03-16 13:06:55.424 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList loadPagesNames(int,int)>
+03-16 13:06:55.425 29648 29648 D GAPS    : CLASS=com.chmod0.manpages.Page
+03-16 13:06:55.425 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.Page: void <init>(java.lang.String,int)>
+03-16 13:06:55.431 29648 29648 D GAPS    : CLASS=com.chmod0.manpages.OnManpageClickListener
+03-16 13:06:55.431 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.OnManpageClickListener: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:06:55.431 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: boolean checkPageFilesOnExternalStorage(java.lang.String)>
+03-16 13:06:55.436 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void suggestDownload()>
+03-16 13:06:55.437 29648 29648 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$2
+03-16 13:06:55.437 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$2: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:06:55.446 29648 29648 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$1
+03-16 13:06:55.446 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$1: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:06:55.520 29648 29648 D GAPS    : METHOD=<com.chmod0.manpages.Page: java.lang.String toString()>
+====== RESTART #6 2026-03-16 13:12:01 ======
+03-16 13:12:02.621 22713 22713 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity
+03-16 13:12:02.621 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void <init>()>
+03-16 13:12:02.625 22713 22713 D GAPS    : ACTIVITY=com.chmod0.manpages.ManualActivity
+03-16 13:12:02.634 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void onCreate(android.os.Bundle)>
+03-16 13:12:02.653 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList initPages()>
+03-16 13:12:02.653 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: java.util.ArrayList loadPagesNames(int,int)>
+03-16 13:12:02.653 22713 22713 D GAPS    : CLASS=com.chmod0.manpages.Page
+03-16 13:12:02.653 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.Page: void <init>(java.lang.String,int)>
+03-16 13:12:02.666 22713 22713 D GAPS    : CLASS=com.chmod0.manpages.OnManpageClickListener
+03-16 13:12:02.666 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.OnManpageClickListener: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:12:02.666 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: boolean checkPageFilesOnExternalStorage(java.lang.String)>
+03-16 13:12:02.671 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity: void suggestDownload()>
+03-16 13:12:02.672 22713 22713 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$2
+03-16 13:12:02.672 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$2: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:12:02.683 22713 22713 D GAPS    : CLASS=com.chmod0.manpages.ManualActivity$1
+03-16 13:12:02.683 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.ManualActivity$1: void <init>(com.chmod0.manpages.ManualActivity)>
+03-16 13:12:02.757 22713 22713 D GAPS    : METHOD=<com.chmod0.manpages.Page: java.lang.String toString()>
