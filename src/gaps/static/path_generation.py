@@ -319,97 +319,75 @@ def _breadth_first_search_graph(
 
             for addr in translate:
                 if source_node in translate[addr] and addr != -1:
-                    list_paths.extend(
-                        _graph_visit(
-                            graph, translate, addr, explore, gaps.conditional
-                        )
-                    )
-                    break
+                    list_paths.extend(_graph_visit(graph, translate, addr))
     if search:
         gaps.search_list[search] = list_paths
     return list_paths
 
 
 def _graph_visit(
-    graph, translate: dict, source_node: list, explore: bool, conditional: bool
+    graph: nx.DiGraph,
+    translate: dict,
+    source_node: int,
 ):
     """
-    Visits nodes in a graph.
+    Backwards-traverse an nx.DiGraph from source_node to the earliest predecessor(s),
+    building instruction sequences using `translate` for literal instructions.
 
-    Args:
-        graph: The graph.
-        translate: Translated nodes.
-        source_node: Source node.
-        explore: Whether to explore paths.
-        conditional: Conditional information.
-
-    Returns:
-        list: List of visited nodes.
+    Returns a list of instruction-sequence tuples. If `explore` is False a single
+    "deepest" sequence (minimum terminal node id) is returned; otherwise all
+    sequences that reach that same deepest terminal node are returned.
     """
+    # max_alternative_paths = 5 if explore else 1
+    # max_path_len = 50 if conditional else 1
+
+    # queue entries: (current_node, node_path_list, code_path_list)
+    q = deque()
+    start_instr = translate.get(source_node, "<unk>")
+    q.append((source_node, [source_node], [start_instr]))
+
     set_paths = set()
-    max_alternative_paths = 1
-    if explore:
-        max_alternative_paths = 5
-    max_path_len = 1
-    if conditional:
-        max_path_len = 50
-    dict_paths = {}
-    paths = deque()
-    code_paths = deque()
-    destination = source_node
-    # new path created
-    paths.append([destination])
-    code_paths.append([translate[destination]])
-    complete = False
-    while not complete:
-        main_path = False
-        while destination in graph:
-            list_destinations = list(graph[destination])
-            # look for alternative paths
-            main_path = False
-            if max_alternative_paths > 0:
-                main_path_copy = paths[0].copy()
-                code_path_copy = code_paths[0].copy()
-            for i in range(len(list_destinations)):
-                if list_destinations[i] in paths[0]:
-                    continue
-                if not main_path:
-                    destination = list_destinations[0]
-                    paths[0].append(destination)
-                    instr = translate[destination]
-                    code_paths[0].append(instr)
-                    main_path = True
-                elif max_alternative_paths > 0:
-                    max_alternative_paths -= 1
-                    new_path = main_path_copy.copy()
-                    new_path.append(list_destinations[i])
-                    paths.append(new_path)
-                    new_code_paths = code_path_copy.copy()
-                    instr = translate[list_destinations[i]]
-                    new_code_paths.append(instr)
-                    code_paths.append(new_code_paths)
-            if (len(code_paths[0]) > max_path_len) or not main_path:
-                break
-        code_paths[0].append(translate[-1])
-        if destination not in dict_paths:
-            dict_paths[destination] = set()
-        dict_paths[destination].add(tuple(code_paths[0]))
-        code_paths.popleft()
-        paths.popleft()
-        # if there are other copied paths to explore
-        if len(paths) > 0:
-            destination = paths[0][len(paths[0]) - 1]
-        else:
-            complete = True
-    deepest = sys.maxsize
-    for distance in dict_paths:
-        if deepest > distance:
-            deepest = distance
-    if deepest != sys.maxsize:
-        if not explore:
-            set_paths.add(list(dict_paths[deepest])[0])
-        else:
-            set_paths = set_paths | dict_paths[deepest]
+    # alt_remaining = max_alternative_paths
+
+    while q:
+        node, node_path, code_path = q.popleft()
+
+        """
+        # stop if we exceeded allowed instruction depth
+        if len(code_path) > max_path_len:
+            # append sentinel instruction if available and record path
+            tail = code_path + [translate.get(-1, "<tail>")]
+            dict_paths.setdefault(node, set()).add(tuple(tail))
+            continue
+        """
+
+        # get predecessors (nodes that lead into current node)
+        try:
+            preds = list(graph.predecessors(node))
+        except Exception:
+            # fallback for non-nx graphs (preserve some compatibility)
+            preds = [n for n, nbrs in graph.items() if node in nbrs]
+
+        # if no predecessors -> we've reached an uppermost instruction, record path
+        if not preds:
+            tail = code_path + [translate.get(-1, "<tail>")]
+            set_paths.add(tuple(tail))
+            continue
+
+        # iterate predecessors; keep one as "main" and limit alternatives globally
+        main_taken = False
+        for p in preds:
+            if p in node_path:
+                # avoid cycles
+                continue
+            if not main_taken:
+                # extend current path in-place (main path)
+                new_node_path = node_path + [p]
+                new_code_path = code_path + [translate.get(p, "<unk>")]
+                q.appendleft((p, new_node_path, new_code_path))
+                main_taken = True
+
+    # return all collected paths for that deepest terminal
     return list(set_paths)
 
 

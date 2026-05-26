@@ -76,7 +76,7 @@ def points_to_analysis(
             original_args_list = [type_of]
 
     for path, start_from in queue:
-        layers += 1
+
         if layers > MAX_LAYERS:
             return result
         instr = path[start_from]
@@ -88,6 +88,7 @@ def points_to_analysis(
             else:
                 ignore_caller = False
                 only_caller = False
+        layers += 1
         if not registers:
             registers = list(
                 set(get_registers(instr, ignore_caller, only_caller))
@@ -117,7 +118,6 @@ def points_to_analysis(
                 if register in registers:
                     to_remove = None
                     const_instr = None
-                    instr_index = -1
                     if "move-result" in instr:
                         if (
                             "get" in path[i + 1].split()[0]
@@ -130,7 +130,6 @@ def points_to_analysis(
                                         const_instr.split()[-1], gaps
                                     )
                                 )
-                            instr_index = i + 1
                             to_remove = register
                     elif (
                         "move" in instr or "-to-" in instr
@@ -174,7 +173,6 @@ def points_to_analysis(
                         ):
                             to_remove = register
                         const_instr = path[i]
-                        instr_index = i
                     elif (
                         register == instr_reg[0]
                         and "put" not in instr
@@ -188,7 +186,6 @@ def points_to_analysis(
                         and "invoke" not in instr
                     ):
                         const_instr = path[i]
-                        instr_index = i
                         to_remove = register
                     elif (
                         len(instr_reg) > 2
@@ -217,9 +214,6 @@ def points_to_analysis(
                                 reg = reg + " " + str(how_many_before)
                                 result[path][reg] = {}
                             result[path][reg]["instruction"] = const_instr
-                            result[path][reg][
-                                "instruction_index"
-                            ] = instr_index
                         else:
                             if (
                                 "additional_instructions"
@@ -253,18 +247,11 @@ def points_to_analysis(
                 gaps,
                 target_class=parent_class,
                 target_instruction=parent,
-                consider_hierarchy=True,
-                explore=True,
             )
             for parent_call in parent_calls:
                 new_path = tuple(list(path) + list(parent_call))
-                new_start_from = len(path)
-                new_entry = [new_path, new_start_from]
+                new_entry = [new_path, 0]
                 if new_entry not in queue:
-                    if new_path not in result:
-                        result[new_path] = {}
-                    if path in result:
-                        result[new_path].update(result[path])
                     queue.append(new_entry)
 
     return result
@@ -371,11 +358,11 @@ def constant_propagation(
             if "put" in var_path[0].split()[0]:
                 ignore_caller = False
                 only_caller = True
-            else:
-                ignore_caller = True
-                if caller_obj:
-                    ignore_caller = False
-                only_caller = False
+            elif (
+                "get" in var_path[0].split()[0]
+                or "invoke" in var_path[0].split()[0]
+            ):
+                continue
             layers += 1
             res = points_to_analysis(
                 var_path,
@@ -407,6 +394,7 @@ def constant_propagation(
                 for reg in res[path]:
                     if "instruction" in res[path][reg]:
                         instruction = res[path][reg]["instruction"]
+                        print(f"->{instruction}")
                         instruction_type = instruction.split()[0]
                         if "get" in instruction_type and "->" in instruction:
                             if instruction not in queue:
@@ -423,6 +411,8 @@ def constant_propagation(
                                 gaps,
                                 layers=layers + 1,
                             )
+                            if len(temp_result) == 0:
+                                result[path].append(instruction)
                             for path_tmp in temp_result:
                                 inter_path = [path, path_tmp]
                                 inter_path = tuple(inter_path)
@@ -566,9 +556,7 @@ def constant_propagation_through_invocations(
                 if "const" in instruction_type:
                     result[path_pta] = get_const_value(instruction)
                 elif "invoke" in instruction_type:
-                    new_instruction_index = method_args[path_pta][
-                        method_regs[0]
-                    ]["instruction_index"]
+                    new_instruction_index = path_pta.index(instruction)
                     new_search = [path_pta, new_instruction_index]
                     if new_search not in queue:
                         queue.append(new_search)

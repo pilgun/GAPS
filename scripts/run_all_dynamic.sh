@@ -5,14 +5,14 @@ IFS=$'\n'
 
 # Command-line arguments
 if [[ $# -lt 2 ]]; then
-	echo "Usage: $0 <app_path> <output_dir> [files] [resume_from]"
+	echo "Usage: $0 <app_path> <output_dir> [resume_from]"
 	exit 1
 fi
 
 app_path=$1
 output_dir=$2
-files=${3:-$(ls $app_path | grep .apk$)}
-resume_from=${4:-""}
+files=$(ls $app_path | grep .apk$)
+resume_from=${3:-""}
 
 resume=0
 if [[ "$resume_from" == "" ]]; then
