@@ -1915,19 +1915,28 @@ def generate_instructions(paths: list, target_instruction, gaps):
         gaps: Gaps analysis object containing required data.
     """
     path_index = 0
+    path_info = target_instruction
+    if path_info in gaps.json_output:
+        existing_indices = [
+            int(key.split("_")[1])
+            for key in gaps.json_output[path_info]
+            if key.startswith("path_")
+        ]
+        if existing_indices:
+            path_index = max(existing_indices) + 1
+
     for path in paths:
         conditional_found = False
         gaps.stats_row[3] += 1
-        path_info = target_instruction
         complete_path = deque()
         for piece in path:
             complete_path.extend(piece)
         call_sequence = _get_call_sequence(complete_path)
         if path_info in gaps.json_output:
-            for path in gaps.json_output[path_info]:
+            for saved_path in gaps.json_output[path_info]:
                 if (
                     call_sequence
-                    == gaps.json_output[path_info][path]["call_sequence"]
+                    == gaps.json_output[path_info][saved_path]["call_sequence"]
                 ):
                     continue
         gaps.stats_row[6] += 1
@@ -1988,13 +1997,12 @@ def generate_instructions(paths: list, target_instruction, gaps):
                     path_j.append([class_name, element_id])
                     if element_text:
                         path_j[len(path_j) - 1] += [element_text]
-        if len(path_j) > 0:
-            filtered_path_j = [k for k, g in groupby(path_j)]
-            if path_info not in gaps.json_output:
-                gaps.json_output[path_info] = {}
-            path_entry = {
-                "call_sequence": call_sequence,
-                "path": filtered_path_j,
-            }
-            gaps.json_output[path_info][f"path_{path_index}"] = path_entry
-            path_index += 1
+        filtered_path_j = [k for k, g in groupby(path_j)]
+        if path_info not in gaps.json_output:
+            gaps.json_output[path_info] = {}
+        path_entry = {
+            "call_sequence": call_sequence,
+            "path": filtered_path_j,
+        }
+        gaps.json_output[path_info][f"path_{path_index}"] = path_entry
+        path_index += 1
