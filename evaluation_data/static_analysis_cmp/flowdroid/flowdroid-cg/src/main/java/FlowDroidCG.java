@@ -33,9 +33,9 @@ public class FlowDroidCG {
         }
 
         InfoflowAndroidConfiguration config = new InfoflowAndroidConfiguration();
-        config.getAnalysisFileConfig().setAndroidPlatformDir(platforms_dir);
-        config.getAnalysisFileConfig().setTargetAPKFile(apk_path);
-        config.setMergeDexFiles(true);
+        config.getAnalysisFileConfig().setAndroidPlatformDir(new java.io.File(platforms_dir));
+        config.getAnalysisFileConfig().setTargetAPKFile(new java.io.File(apk_path));
+        
 	config.getCallbackConfig().setEnableCallbacks(true);
 	config.setCodeEliminationMode(InfoflowConfiguration.CodeEliminationMode.NoCodeElimination);
 	config.getPathConfiguration().setPathReconstructionMode(InfoflowConfiguration.PathReconstructionMode.Precise);	
