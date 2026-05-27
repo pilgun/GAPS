@@ -331,44 +331,31 @@ def _graph_visit(
     source_node: int,
 ):
     """
-    Backwards-traverse an nx.DiGraph from source_node to the earliest predecessor(s),
+    Traverse an nx.DiGraph from source_node to the uppermost successor(s),
     building instruction sequences using `translate` for literal instructions.
 
     Returns a list of instruction-sequence tuples. If `explore` is False a single
     "deepest" sequence (minimum terminal node id) is returned; otherwise all
     sequences that reach that same deepest terminal node are returned.
     """
-    # max_alternative_paths = 5 if explore else 1
-    # max_path_len = 50 if conditional else 1
-
     # queue entries: (current_node, node_path_list, code_path_list)
     q = deque()
     start_instr = translate.get(source_node, "<unk>")
     q.append((source_node, [source_node], [start_instr]))
 
     set_paths = set()
-    # alt_remaining = max_alternative_paths
 
     while q:
         node, node_path, code_path = q.popleft()
 
-        """
-        # stop if we exceeded allowed instruction depth
-        if len(code_path) > max_path_len:
-            # append sentinel instruction if available and record path
-            tail = code_path + [translate.get(-1, "<tail>")]
-            dict_paths.setdefault(node, set()).add(tuple(tail))
-            continue
-        """
-
-        # get predecessors (nodes that lead into current node)
+        # get successors (nodes that current node leads into)
         try:
-            preds = list(graph.predecessors(node))
+            preds = list(graph.successors(node))
         except Exception:
             # fallback for non-nx graphs (preserve some compatibility)
-            preds = [n for n, nbrs in graph.items() if node in nbrs]
+            preds = list(graph.get(node, [])) if hasattr(graph, "get") else []
 
-        # if no predecessors -> we've reached an uppermost instruction, record path
+        # if no successors -> we've reached an uppermost instruction, record path
         if not preds:
             tail = code_path + [translate.get(-1, "<tail>")]
             set_paths.add(tuple(tail))
@@ -427,9 +414,7 @@ def get_reflection_calls(gaps):
                     "getDeclaredMethod" in instruction
                     or "getMethod" in instruction
                 ):
-                    instruction_index = invoke_args[path_pta][invoke_regs[0]][
-                        "instruction_index"
-                    ]
+                    instruction_index = path_pta.index(instruction)
                     if (
                         instruction_index < 0
                         or instruction_index > len(path_pta) - 1

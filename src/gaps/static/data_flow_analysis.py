@@ -74,13 +74,11 @@ def points_to_analysis(
             if ";" in type_of:
                 type_of = type_of.replace(";", "")
             original_args_list = [type_of]
-
     for path, start_from in queue:
-
         if layers > MAX_LAYERS:
             return result
         instr = path[start_from]
-        if layers != 0:
+        if layers > 0:
             register = None
             if "put" in instr.split()[0]:
                 ignore_caller = False
@@ -394,7 +392,6 @@ def constant_propagation(
                 for reg in res[path]:
                     if "instruction" in res[path][reg]:
                         instruction = res[path][reg]["instruction"]
-                        print(f"->{instruction}")
                         instruction_type = instruction.split()[0]
                         if "get" in instruction_type and "->" in instruction:
                             if instruction not in queue:
@@ -417,6 +414,8 @@ def constant_propagation(
                                 inter_path = [path, path_tmp]
                                 inter_path = tuple(inter_path)
                                 result[inter_path] = temp_result[path_tmp]
+                        else:
+                            result[path].append(instruction)
         gaps.search_list[search_tag] = result
     return result
 

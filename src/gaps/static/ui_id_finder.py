@@ -274,10 +274,6 @@ def _get_ui_id_or_text(
                 element_text,
             )
 
-    element_id = _get_id_from_xml(class_name_callback, method_name, gaps)
-    if element_id:
-        return element_id, element_text
-
     if method_name == "onCheckedChanged":
         method_name = "onCheckedChange"
     set_listener = (
@@ -292,15 +288,6 @@ def _get_ui_id_or_text(
         object_name,
         element_int_id,
     ) = _get_variable_or_int_id(set_listener_paths, class_name_callback, gaps)
-
-    if not object_class and not object_name and not element_int_id:
-        (
-            object_class,
-            object_name,
-            element_int_id,
-        ) = _get_variable_or_int_id_via_proxy(
-            set_listener_paths, class_name_callback, gaps
-        )
     if object_class and object_name:
         target_object = object_class + ";->" + object_name
         object_paths = path_generation.find_path_smali(
@@ -444,9 +431,7 @@ def _get_int_id_from_variable(object_paths: list, gaps) -> str:
                             "findViewById" in parameter
                             or "setImageResource" in parameter
                         ):
-                            inst_index = parameters[path_dfa][reg][
-                                "instruction_index"
-                            ]
+                            inst_index = path_dfa.index(parameter)
                             element_int_id = _get_int_id_from_findViewById(
                                 object_path, inst_index, gaps
                             )
@@ -478,10 +463,27 @@ def _get_variable_or_int_id(
             for reg in parameters[path_dfa]:
                 if "instruction" in parameters[path_dfa][reg]:
                     parameter = parameters[path_dfa][reg]["instruction"]
+                    check_path_for_id = False
                     if (
                         class_name_callback in parameter
                         and "new-instance" in parameter.split()[0]
                     ):
+                        check_path_for_id = True
+
+                    # if we find an object, use constant propagation
+                    if "get-object" in parameter.split()[0]:
+                        result = data_flow_analysis.constant_propagation(
+                            parameter, gaps
+                        )
+                        for path_var in result:
+                            for val_var in result[path_var]:
+                                if (
+                                    class_name_callback in val_var
+                                    and "new-instance" in val_var.split()[0]
+                                ):
+                                    check_path_for_id = True
+
+                    if check_path_for_id:
                         (
                             object_class,
                             object_name,
@@ -530,9 +532,7 @@ def _extract_variable_or_int_id(path: list, gaps) -> [str, str, str]:
                         "findViewById" in parameter
                         or "setImageResource" in parameter
                     ):
-                        inst_index = parameters[path_dfa][reg][
-                            "instruction_index"
-                        ]
+                        inst_index = path_dfa.index(parameter)
                         resource_int_id = _get_int_id_from_findViewById(
                             path, inst_index, gaps
                         )
@@ -547,56 +547,6 @@ def _extract_variable_or_int_id(path: list, gaps) -> [str, str, str]:
         object_name,
         resource_int_id,
     )
-
-
-def _get_variable_or_int_id_via_proxy(
-    paths: list, class_name_callback: str, gaps
-) -> [str, str, str]:
-    """
-    Extracts the variable or integer ID via proxy analysis.
-
-    Args:
-        paths (list): Paths to analyze.
-        class_name_callback (str): Callback class name.
-        gaps (object): Data and methods for processing.
-
-    Returns:
-        [str, str, str]: Object class, object name, and resource integer ID.
-    """
-    object_class, object_name = None, None
-    resource_int_id = None
-    for path in paths:
-        obj_class, obj_name = method_utils.get_class_and_method(path[1], True)
-        if len(obj_class) > 0 and obj_class in class_name_callback:
-            target_object = obj_class + ";->" + obj_name
-            object_paths = path_generation.find_path_smali(
-                obj_name,
-                gaps,
-                target_class=obj_class,
-                target_instruction=target_object,
-                consider_hierarchy=False,
-            )
-
-            for variable_path in object_paths:
-                class_name, method_name = method_utils.get_class_and_method(
-                    variable_path[1], True
-                )
-                if (
-                    class_name == class_name_callback
-                    and method_name == "<init>"
-                ):
-                    (
-                        object_class,
-                        object_name,
-                        resource_int_id,
-                    ) = _extract_variable_or_int_id(path, gaps)
-                    if (object_class and object_name) or resource_int_id:
-                        return (
-                            object_class,
-                            object_name,
-                            resource_int_id,
-                        )
-    return object_class, object_name, resource_int_id
 
 
 def _get_int_id_from_findViewById(path: list, inst_index: int, gaps) -> int:
@@ -917,6 +867,8 @@ def _get_id_from_xml(class_name: str, identifier: str, gaps) -> str:
     """
     element_id = None
     # find the activity xml from invocations of setContentView
+    if "$" in class_name:
+        class_name = class_name.split("$")[0]
     paths = path_generation.find_path_smali(
         "setContentView",
         gaps,
@@ -929,7 +881,6 @@ def _get_id_from_xml(class_name: str, identifier: str, gaps) -> str:
     activity_id = ""
     if activity_int_id in gaps.public_xml:
         activity_id = gaps.public_xml[activity_int_id]
-
     # look for the button text in the activity.xml file
     if activity_id:
         activity_xml_path = (
@@ -953,9 +904,7 @@ def _get_int_id(paths: list, gaps) -> str:
     """
     id_ = -1
     for path in paths:
-        parameters = data_flow_analysis.points_to_analysis(
-            path, 0, gaps, ignore_caller=True
-        )
+        parameters = data_flow_analysis.points_to_analysis(path, 0, gaps)
         for path_dfa in parameters:
             for reg in parameters[path_dfa]:
                 if "instruction" in parameters[path_dfa][reg]:
